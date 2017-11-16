@@ -29,7 +29,7 @@
 
 		$myposts = get_posts( $args );
 		foreach ( $myposts as $post ) : setup_postdata( $post ); ?>
-			<h1>
+			<h1 class="hed-l">
 				<?php echo get_the_content(); ?>
 			</h1>
 		<?php endforeach; 
@@ -44,7 +44,7 @@
 		
 		
 			<div class="large-7 large-offset-5 small-12 cell">
-				<h4>Info</h4>		
+				<h4 class="hed-m">Info</h4>		
 				<?php the_content(); ?>
 					
 			</div>
@@ -104,7 +104,7 @@
 		</div> -->
 
 		<div class="small-12 large-4 large-offset-5 cell">
-			<h4>Achievements</h4>
+			<h4 class="hed-m">Achievements</h4>
 			<?php
 
 			// The Query
@@ -115,7 +115,7 @@
 			        echo '<ul class="info-list">';
 				while ( $the_query->have_posts() ) {
 					$the_query->the_post();
-					echo '<li>' . get_the_content() . '</li>';
+					echo '<li class="body">' . get_the_content() . '</li>';
 				}
 			        echo '</ul>';
 			} else {
@@ -128,7 +128,7 @@
 		</div>
 
 		<div class="large-3 cell">
-				<h4>Contact</h4>
+				<h4 class="hed-m">Contact</h4>
 				
 				<?php
 

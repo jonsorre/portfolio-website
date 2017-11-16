@@ -44,8 +44,8 @@
 
 						
 						<div class="overlay-info">
-						<h4><?php the_title(); ?></h4>
-						<p><?php the_subtitle(); ?></p>
+						<h2 class="hed-l"><?php the_title(); ?></h2>
+						<p class="body"><?php the_subtitle(); ?></p>
 						</div>
 						
 

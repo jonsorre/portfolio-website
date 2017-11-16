@@ -46,9 +46,6 @@ section {
      * Correct the font size and margin on `h1` elements within `section` and
      * `article` contexts in Chrome, Firefox, and Safari.
      */
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0; }
 
 /* Grouping content
        ========================================================================== */
@@ -436,11 +433,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: #fefefe;
-  font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
-  font-weight: normal;
-  line-height: 1.5;
-  color: #0a0a0a;
+  /*font-weight: normal;*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
@@ -511,10 +504,10 @@ textarea {
     outline: 0; }
   .menu a,
   .menu .button {
-    line-height: 1;
+    
     text-decoration: none;
     display: block;
-    padding: 0.7rem 1rem; }
+    /*padding: 0.7rem 1rem;*/ }
   .menu input,
   .menu select,
   .menu a,
@@ -656,7 +649,6 @@ textarea {
           justify-content: flex-start; }
   .menu .menu-text {
     padding: 0.7rem 1rem;
-    font-weight: bold;
     line-height: 1;
     color: inherit; }
 
@@ -703,7 +695,7 @@ textarea {
   margin-top: -3px; }
 
 .dropdown.menu a {
-  padding: 0.7rem 1rem; }
+  /*padding: 0.7rem 0;*/ }
   [data-whatinput='mouse'] .dropdown.menu a {
     outline: 0; }
 
@@ -937,8 +929,6 @@ textarea {
 
 .title-bar {
   padding: 0.5rem;
-  background: #0a0a0a;
-  color: #fefefe;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: start;
@@ -971,12 +961,12 @@ textarea {
       justify-content: space-between;
   -ms-flex-align: center;
       align-items: center;
-  padding: 0.5rem;
+  /*padding: 0.5rem;*/
   -ms-flex-wrap: wrap;
       flex-wrap: wrap; }
   .top-bar,
   .top-bar ul {
-    background-color: #e6e6e6; }
+     }
   .top-bar input {
     max-width: 200px;
     margin-right: 1rem; }
