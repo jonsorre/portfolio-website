@@ -1,0 +1,134 @@
+/* ----------- MENU HAMBURGER ---------- */
+
+    .c-hamburger {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0.750rem;
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+        width: 60px;
+        height: 60px;
+        font-size: 0;
+        text-indent: -9999px;
+        appearance: none;
+        box-shadow: none;
+        border-radius: none;
+        border: none;
+        cursor: pointer;
+        transition: background 0.3s;
+        z-index:998;
+    }
+
+    .c-hamburger:focus {
+        outline: none;
+    }
+
+    .c-hamburger span {
+        display: block;
+        position: absolute;
+        top: 28px;
+        left: 20px;
+        right: 15px;
+        height: 0px;
+        width:20px  ;
+        background: var(--text-color);
+    }
+
+    .c-hamburger span::before,
+    .c-hamburger span::after {
+        position: absolute;
+        display: block;
+        left: 0;
+        width: 100%;
+        height: 1px;
+        background-color: var(--text-color);
+        content: "";
+    }
+
+    .c-hamburger span::before {
+        top: -3px;
+    }
+
+    .c-hamburger span::after {
+        bottom: -3px;
+    }
+
+    .c-hamburger--htx {
+        background:none;
+    }
+
+    .c-hamburger--htx span {
+        transition: background 0s 0.3s;
+    }
+
+    .c-hamburger--htx span::before,
+    .c-hamburger--htx span::after {
+        transition-duration: 0.3s, 0.3s;
+        transition-delay: 0.3s, 0s;
+    }
+
+    .c-hamburger--htx span::before {
+        transition-property: top, transform;
+    }
+
+    .c-hamburger--htx span::after {
+        transition-property: bottom, transform;
+    }
+
+    /* active state, i.e. menu open */
+    .c-hamburger--htx.is-active {
+        background-color: rgba(255, 255, 255, 0);
+        background:none;
+    }
+
+    .c-hamburger--htx.is-active span {
+        background: none;
+    }
+
+    .c-hamburger--htx.is-active span::before {
+        top: 0;
+        transform: rotate(45deg);
+    }
+
+    .c-hamburger--htx.is-active span::after {
+        bottom: 0;
+        transform: rotate(-45deg);
+    }
+
+    .c-hamburger--htx.is-active span::before,
+    .c-hamburger--htx.is-active span::after {
+        transition-delay: 0s, 0.3s;
+        background-color:white;
+    }
+
+
+/* ----------- MENU HAMBURGER ---------- */
+
+
+/*------- PANEL --------*/
+#panel {
+display: none;
+background:#0000FF;
+position:absolute;
+top:0px;
+bottom:0px;
+left:0px;
+right:0px;
+z-index:200;
+}
+
+#panel ul {
+margin:3.750rem auto 0;
+text-align:center;
+}
+
+#panel li {
+margin-bottom:2.813rem;
+}
+
+#panel a {
+
+}
+/*------- PANEL --------*/

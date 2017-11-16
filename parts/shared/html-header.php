@@ -14,9 +14,11 @@
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 		<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/img/favicon.png"/>
 		
+		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/var.css" type="text/css" charset="utf-8" />
+		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/mobile-menu.css" type="text/css" charset="utf-8" />
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/foundation.css" type="text/css" charset="utf-8" />
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/portfolio.css" type="text/css" charset="utf-8" />
-		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/studio_s_font.css" type="text/css" charset="utf-8" />
+		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/fonts/ssfonts.css" type="text/css" charset="utf-8" />
 
 
 	
@@ -54,7 +56,7 @@
 
             	<!-- TOP BAR -->
                 <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
-                  <div class="title-bar-title"><a href="<?php echo site_url(); ?>">Studio Sorrentino</a></div>
+                  <div class="hed-m title-bar-title"><a href="<?php echo site_url(); ?>">Studio Sorrentino</a></div>
                     <button class="c-hamburger c-hamburger--htx">
                         <span>toggle menu</span>
                     </button>
@@ -69,13 +71,13 @@
                     <div class="top-bar" id="responsive-menu">
                       <div class="top-bar-left">
                         <ul class="dropdown menu" data-dropdown-menu>
-                          <li class="menu-text"><a href="<?php echo site_url(); ?>">Studio Sorrentino</a></li>
+                          <li class="hed-m menu-text"><a href="<?php echo site_url(); ?>">Studio Sorrentino</a></li>
                           
                         </ul>
                       </div>
                       <div class="top-bar-right">
                         <ul class="menu">                      
-                          <li><?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?></li>
+                          <li class="hed-m"><?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?></li>
                         </ul>
                       </div>
                     </div>

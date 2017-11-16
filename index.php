@@ -26,7 +26,7 @@
 
 		$myposts = get_posts( $args );
 		foreach ( $myposts as $post ) : setup_postdata( $post ); ?>
-			<h1>
+			<h1 class="hed-l">
 				<?php echo get_the_content(); ?>
 			</h1>
 		<?php endforeach; 
@@ -54,8 +54,8 @@
 						</div>
 						
 						<div class="overlay-info">
-						<h4><?php the_title(); ?></h4>
-						<p><?php the_subtitle(); ?></p>
+						<h4 class="hed-m"><?php the_title(); ?></h4>
+						<p class="body"><?php the_subtitle(); ?></p>
 						</div>
 					</div>
 					</a>

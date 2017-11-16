@@ -16,7 +16,7 @@
 
 	<div id="project-info" class="grid-x grid-padding-x">
 			<div id="project-title" class="large-7 large-offset-5 small-12 columns cell">
-				<h2 id="title"><?php the_title(); ?></h2>
+				<h2 class="hed-l title"><?php the_title(); ?></h2>
 
                 
             <div class="large-8 cell">
@@ -45,7 +45,7 @@
 
     <div class="grid-x grid-padding-x align-center">
          <div id="more-label" class="large-12 cell">
-            <h6>More</h6>
+            <h6 class="hed-l">More</h6>
          </div>
     </div>    
 
@@ -68,8 +68,8 @@
                         <?php the_post_thumbnail('large'); ?>
 
                         <div class="overlay-info">
-                            <h4><?php the_title(); ?></h4>
-                            <p><?php the_subtitle(); ?></p>
+                            <h4 class="hed-m"><?php the_title(); ?></h4>
+                            <p class="body"><?php the_subtitle(); ?></p>
                         </div>
                     </a>
                 </div>
@@ -97,8 +97,8 @@
                         <?php the_post_thumbnail('large'); ?>
 
                         <div class="overlay-info">
-                            <h4><?php the_title(); ?></h4>
-                            <p><?php the_subtitle(); ?></p>
+                            <h4 class="hed-m"><?php the_title(); ?></h4>
+                            <p class="body"><?php the_subtitle(); ?></p>
                         </div>
                     </a>
                 </div>
@@ -114,4 +114,4 @@
 
 <?php endwhile; ?>
 
-<?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-footer-proj' ) ); ?>
+<?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-footer' ) ); ?>
