@@ -10,7 +10,8 @@
     /*Typography*/
 
     --body-line-height: 1.6;
-    --hed-line-height: 1.3; 
+    --hed-line-height: 1.3;
+    --alt-line-height: 1; 
     --text-weight:400;
 
     --hed-xl: 5.625rem;

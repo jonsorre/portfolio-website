@@ -3,22 +3,17 @@
     .c-hamburger {
         display: block;
         position: absolute;
-        right: 0;
-        top: 0.750rem;
-        overflow: hidden;
-        margin: 0;
-        padding: 0;
+        right:5px;
+        top: 46px;
         width: 60px;
         height: 60px;
-        font-size: 0;
-        text-indent: -9999px;
-        appearance: none;
-        box-shadow: none;
-        border-radius: none;
-        border: none;
         cursor: pointer;
         transition: background 0.3s;
         z-index:998;
+    }
+
+    svg {
+        width:30px;
     }
 
     .c-hamburger:focus {
@@ -120,12 +115,19 @@ z-index:200;
 }
 
 #panel ul {
-margin:3.750rem auto 0;
-text-align:center;
+margin:60px auto 0;
 }
 
 #panel li {
-margin-bottom:2.813rem;
+    list-style:none;
+    font-family: var(--alt-font);
+    font-size: var(--hed-xl);
+    line-height: var(--alt-line-height);
+    font-weight: var(--text-weight);
+    -webkit-text-fill-color: rgba(0,0,0,0); /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: var(--text-color);
+    margin-bottom:90px;
 }
 
 #panel a {
