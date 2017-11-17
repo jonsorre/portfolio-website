@@ -35,6 +35,10 @@ body {
     color: var(--text-color);
 }
 
+#grid-wrapper {
+    overflow:hidden;
+}
+
 a, a:visited {
     color: var(--text-color);
     text-decoration:none;
@@ -197,16 +201,15 @@ opacity:1;
 }
 
 #yesorno {
-    margin-top:180px;
-    transform: translate3d(0, 0, 0);
+    margin:180px -15% 0;
 }
 
 #yesorno a {
-    text-decoration:underline;
+    border-bottom:1px solid var(--text-color);
 }
 
 #yesorno h3 {
-    width:1000%;
+    width:300%;
 }
 
 #yesorno .--1 {
@@ -227,9 +230,9 @@ opacity:1;
     animation-direction: alternate-reverse;
 }
 
-@-webkit-keyframes myfirst {
-    100% {transform: translate(-800px, 0);}
-}
+/*@-webkit-keyframes myfirst {
+    100% {transform: translateX(-800px);}
+}*/
 
 /**/
 /*          PROJECT PAGE*/

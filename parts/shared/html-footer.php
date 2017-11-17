@@ -1,7 +1,15 @@
         </div> <!-- WRAPPER -->
 
         <div id="yesorno">
-            <h3 class="hed-xl --1">Studio Sorrentino is <a href="mailto:hello@jonsorrentino">AVAILABLE</a> for freelance projects</h3>
+            <marquee behavior="alternate" class="hed-xl">Studio Sorrentino is <a href="mailto:hello@jonsorrentino">AVAILABLE</a> for freelance projects</marquee>
+
+            <marquee direction="right" behavior="alternate" class="hed-xl">Studio Sorrentino is <a href="mailto:hello@jonsorrentino">AVAILABLE</a> for freelance projects</marquee>
+
+            <marquee behavior="alternate" class="hed-xl">Studio Sorrentino is <a href="mailto:hello@jonsorrentino">AVAILABLE</a> for freelance projects</marquee>
+
+            <marquee direction="right" behavior="alternate" class="hed-xl">Studio Sorrentino is <a href="mailto:hello@jonsorrentino">AVAILABLE</a> for freelance projects</marquee>
+
+            <marquee behavior="alternate" class="hed-xl">Studio Sorrentino is <a href="mailto:hello@jonsorrentino">AVAILABLE</a> for freelance projects</marquee>
         </div>
 
         <div id="footer">
