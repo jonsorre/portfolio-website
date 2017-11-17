@@ -1,27 +1,28 @@
         </div> <!-- WRAPPER -->
+        
+            <div id="footer">
+                
+                <div class="grid-container">
 
+
+                    <div id="footer_links" class="grid-x grid-padding-x">
+                        <div id="footer-links" class="large-7 medium-12 cell">                        
+                                <?php wp_nav_menu( array( 'theme_location' => 'secondary', 'menu_id' => ' ', 'menu_class' => ' ', 'container' => false ) ); ?>
+                        </div>
+
+                        <div id="footer-rights" class="large-5 medium-12 cell">
+                            <span class="body">© 2017 Jon Sorrentino. All rights reserved.</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         
     </div> <!-- GRID CONTAINER -->
 </div> <!-- GRID WRAPPER -->
 
 
-<div id="footer">
-            
-            <div class="grid-container">
 
-
-                <div id="footer_links" class="grid-x grid-padding-x">
-                    <div id="footer-links" class="large-7 medium-12 cell">                        
-                            <?php wp_nav_menu( array( 'theme_location' => 'secondary', 'menu_id' => ' ', 'menu_class' => ' ', 'container' => false ) ); ?>
-                    </div>
-
-                    <div id="footer-rights" class="large-5 medium-12 cell">
-                        <span class="body">© 2017 Jon Sorrentino. All rights reserved.</span>
-                    </div>
-                </div>
-            </div>
-
-</div>
 
 
 

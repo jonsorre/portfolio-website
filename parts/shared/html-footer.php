@@ -1,23 +1,14 @@
         </div> <!-- WRAPPER -->
 
-        
-    </div> <!-- GRID CONTAINER -->
-</div> <!-- GRID WRAPPER -->
+        <div id="yesorno">
+            <h3 class="hed-xl --1">Studio Sorrentino is <a href="mailto:hello@jonsorrentino">AVAILABLE</a> for freelance projects</h3>
+            <h3 class="hed-xl --2">Studio Sorrentino is <a href="mailto:hello@jonsorrentino">AVAILABLE</a> for freelance projects</h3>
+            <h3 class="hed-xl --1">Studio Sorrentino is <a href="mailto:hello@jonsorrentino">AVAILABLE</a> for freelance projects</h3>
+        </div>
 
-
-<div id="footer">
+        <div id="footer">
             
             <div class="grid-container">
-
-
-                <div  id="footer-cta" class="grid-x grid-padding-x align-center --index">
-                    <div class="large-12 cell">
-                        <h5></h5>
-                        
-
-                        
-                    </div>
-                </div>
 
                 <div id="footer_links" class="grid-x grid-padding-x">
                     <div id="footer-links" class="large-8 medium-12 cell">                        
@@ -30,7 +21,11 @@
                 </div>
             </div>
 
-</div>
+        </div>
+        
+    </div> <!-- GRID CONTAINER -->
+</div> <!-- GRID WRAPPER -->
+
 
 
 

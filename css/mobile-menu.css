@@ -14,6 +14,7 @@
 
     svg {
         width:30px;
+        stroke-width:.5px;
     }
 
     .c-hamburger:focus {
@@ -104,24 +105,29 @@
 
 /*------- PANEL --------*/
 #panel {
-display: none;
-background:#0000FF;
-position:absolute;
-top:0px;
-bottom:0px;
-left:0px;
-right:0px;
-z-index:200;
+    display: none;
+    background:#0000FF;
+    position:absolute;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    z-index:200;
 }
 
 #panel ul {
-margin:60px auto 0;
+    text-align:center;
+    position:fixed;
+    margin:60px auto 0;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
 }
 
 #panel li {
     list-style:none;
     font-family: var(--alt-font);
-    font-size: var(--hed-xl);
+    font-size: var(--hed-m);
     line-height: var(--alt-line-height);
     font-weight: var(--text-weight);
     -webkit-text-fill-color: rgba(0,0,0,0); /* Will override color (regardless of order) */
