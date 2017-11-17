@@ -2,8 +2,6 @@
 
         <div id="yesorno">
             <h3 class="hed-xl --1">Studio Sorrentino is <a href="mailto:hello@jonsorrentino">AVAILABLE</a> for freelance projects</h3>
-            <h3 class="hed-xl --2">Studio Sorrentino is <a href="mailto:hello@jonsorrentino">AVAILABLE</a> for freelance projects</h3>
-            <h3 class="hed-xl --1">Studio Sorrentino is <a href="mailto:hello@jonsorrentino">AVAILABLE</a> for freelance projects</h3>
         </div>
 
         <div id="footer">
