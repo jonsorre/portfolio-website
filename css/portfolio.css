@@ -192,6 +192,10 @@ opacity:1;
     margin-bottom:0;
 }
 
+.overlay-info p {
+    margin:10px 0 0;
+}
+
 #yesorno {
     margin-top:180px;
     transform: translate3d(0, 0, 0);
