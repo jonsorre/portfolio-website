@@ -3,18 +3,19 @@
     .c-hamburger {
         display: block;
         position: absolute;
-        right:5px;
-        top: 46px;
+        right:4px;
+        top: 30px;
         width: 60px;
         height: 60px;
+        font-size: 0;
+        text-indent: -9999px;
+        appearance: none;
+        box-shadow: none;
+        border-radius: none;
+        border: none;
         cursor: pointer;
         transition: background 0.3s;
         z-index:998;
-    }
-
-    svg {
-        width:30px;
-        stroke-width:.5px;
     }
 
     .c-hamburger:focus {
@@ -25,10 +26,10 @@
         display: block;
         position: absolute;
         top: 28px;
-        left: 20px;
+        left: 15px;
         right: 15px;
-        height: 0px;
-        width:20px  ;
+        height: 1px;
+        width:30px  ;
         background: var(--text-color);
     }
 
@@ -44,11 +45,11 @@
     }
 
     .c-hamburger span::before {
-        top: -3px;
+        top: 8px;
     }
 
     .c-hamburger span::after {
-        bottom: -3px;
+        bottom: 8px;
     }
 
     .c-hamburger--htx {
@@ -113,15 +114,16 @@
     left:0px;
     right:0px;
     z-index:200;
+    padding:186px 20px 0;
 }
 
-#panel ul {
-    text-align:center;
-    position:fixed;
-    margin:60px auto 0;
-    top:50%;
-    left:50%;
-    transform: translate(-50%, -50%);
+#panel p {
+    margin:0 0 30px;
+    font-size: var(--body-s);
+}
+
+#panel .internal {
+    margin-bottom:60px;
 }
 
 #panel li {
@@ -133,10 +135,7 @@
     -webkit-text-fill-color: rgba(0,0,0,0); /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: var(--text-color);
-    margin-bottom:90px;
+    margin-bottom:15px;
 }
 
-#panel a {
-
-}
 /*------- PANEL --------*/

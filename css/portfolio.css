@@ -212,32 +212,6 @@ opacity:1;
     width:300%;
 }
 
-#yesorno .--1 {
-    position:relative;
-    margin-left:-10%;
-    -webkit-animation: myfirst 10s linear 20; /* Safari 4.0 - 8.0 */
-    -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
-    animation: myfirst 10s linear 20;
-    animation-direction: alternate;
-}
-
-#yesorno .--2 {
-    position:relative;
-    margin-left:-40%;
-    -webkit-animation: myfirst 10s linear 20; /* Safari 4.0 - 8.0 */
-    -webkit-animation-direction: alternate-reverse; /* Safari 4.0 - 8.0 */
-    animation: myfirst 10s linear 20;
-    animation-direction: alternate-reverse;
-}
-
-/*@-webkit-keyframes myfirst {
-    100% {transform: translateX(-800px);}
-}*/
-
-/**/
-/*          PROJECT PAGE*/
-/**/
-
 .title {
     margin-bottom:30px;
 }
