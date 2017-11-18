@@ -67,6 +67,9 @@
                 <nav>
 
                     <div id="panel">
+
+                    	<div class="hed-m panel-title"><a href="<?php echo site_url(); ?>">Studio Sorrentino</a></div>
+
                     	<div class="internal">
 	                        <p>Internal</p>
 	                        <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => ' ', 'menu_class' => 'pages', 'container' => false ) ); ?>

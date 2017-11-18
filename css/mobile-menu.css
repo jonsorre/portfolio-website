@@ -78,6 +78,11 @@
     .c-hamburger--htx.is-active {
         background-color: rgba(255, 255, 255, 0);
         background:none;
+        position:fixed;
+    }
+
+    .c-hamburger--htx.is-active .title-bar-title {
+        position:fixed;
     }
 
     .c-hamburger--htx.is-active span {
@@ -108,7 +113,7 @@
 #panel {
     display: none;
     background:#0000FF;
-    position:absolute;
+    position:fixed;
     top:0px;
     bottom:0px;
     left:0px;
@@ -116,6 +121,13 @@
     z-index:200;
     padding:166px 20px 0;
     background-attachment:fixed;
+}
+
+.panel-title {
+    width: 235px;
+    position: absolute;
+    top: 30px;
+    left: 18px;
 }
 
 #panel p {

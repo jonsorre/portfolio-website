@@ -212,6 +212,19 @@ opacity:1;
     width:300%;
 }
 
+#yesorno h3 {
+    animation:slide 5s linear infinite alternate;
+}
+
+#yesorno .odd {
+    animation:slide 5s linear infinite alternate-reverse;
+}
+
+@keyframes slide {
+    0% {transform: translateX(0px);}
+    100% {transform: translateX(-400px);}
+}
+
 .title {
     margin-bottom:30px;
 }
@@ -431,9 +444,17 @@ opacity:1;
         margin:90px -20px 0;
     }
 
-    #mymarquee {
-        -webkit-marquee-speed: slow;
-        marquee-speed: slow;
+    #yesorno h3 {
+        animation:slide 15s linear infinite alternate;
+    }
+
+    #yesorno .odd {
+        animation:slide 15s linear infinite alternate-reverse;
+    }
+
+    @keyframes slide {
+        0% {transform: translateX(0px);}
+        100% {transform: translateX(-600px);}
     }
 
     #project-info {

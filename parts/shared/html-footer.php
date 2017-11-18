@@ -1,15 +1,11 @@
         </div> <!-- WRAPPER -->
 
         <div id="yesorno">
-            <marquee behavior="alternate" class="hed-xl">Studio Sorrentino is <a href="mailto:hello@jonsorrentino">AVAILABLE</a> for freelance projects</marquee>
-
-            <marquee direction="right" behavior="alternate" class="hed-xl">Studio Sorrentino is <a href="mailto:hello@jonsorrentino">AVAILABLE</a> for freelance projects</marquee>
-
-            <marquee behavior="alternate" class="hed-xl">Studio Sorrentino is <a href="mailto:hello@jonsorrentino">AVAILABLE</a> for freelance projects</marquee>
-
-            <marquee direction="right" behavior="alternate" class="hed-xl">Studio Sorrentino is <a href="mailto:hello@jonsorrentino">AVAILABLE</a> for freelance projects</marquee>
-
-            <marquee behavior="alternate" class="hed-xl">Studio Sorrentino is <a href="mailto:hello@jonsorrentino">AVAILABLE</a> for freelance projects</marquee>
+            <h3 class="hed-xl">Studio Sorrentino is <a href="mailto:hello@jonsorrentino">AVAILABLE</a> for freelance projects</h3>
+            <h3 class="hed-xl odd">Studio Sorrentino is <a href="mailto:hello@jonsorrentino">AVAILABLE</a> for freelance projects</h3>
+            <h3 class="hed-xl">Studio Sorrentino is <a href="mailto:hello@jonsorrentino">AVAILABLE</a> for freelance projects</h3>
+            <h3 class="hed-xl odd">Studio Sorrentino is <a href="mailto:hello@jonsorrentino">AVAILABLE</a> for freelance projects</h3>
+            <h3 class="hed-xl">Studio Sorrentino is <a href="mailto:hello@jonsorrentino">AVAILABLE</a> for freelance projects</h3>
         </div>
 
         <div id="footer">
