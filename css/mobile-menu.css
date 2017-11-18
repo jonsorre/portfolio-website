@@ -114,6 +114,7 @@
     right:0px;
     z-index:200;
 <<<<<<< HEAD
+<<<<<<< HEAD
     padding:166px 20px 0;
 }
 
@@ -129,6 +130,10 @@
 =======
 }
 
+=======
+}
+
+>>>>>>> parent of 232e41d... Formatting mobile menu and fixing animation here
 #panel ul {
     text-align:center;
     position:fixed;
@@ -136,6 +141,9 @@
     top:50%;
     left:50%;
     transform: translate(-50%, -50%);
+<<<<<<< HEAD
+>>>>>>> parent of 232e41d... Formatting mobile menu and fixing animation here
+=======
 >>>>>>> parent of 232e41d... Formatting mobile menu and fixing animation here
 }
 
@@ -152,7 +160,14 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*------- PANEL --------
+=======
+#panel a {
+
+}
+/*------- PANEL --------*/
+>>>>>>> parent of 232e41d... Formatting mobile menu and fixing animation here
 =======
 #panel a {
 
