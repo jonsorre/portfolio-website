@@ -213,16 +213,16 @@ opacity:1;
 }
 
 #yesorno h3 {
-    animation:slide 5s linear infinite alternate;
+    animation:slide 20s linear infinite alternate;
 }
 
 #yesorno .odd {
-    animation:slide 5s linear infinite alternate-reverse;
+    animation:slide 20s linear infinite alternate-reverse;
 }
 
 @keyframes slide {
     0% {transform: translateX(0px);}
-    100% {transform: translateX(-400px);}
+    100% {transform: translateX(-800px);}
 }
 
 .title {
