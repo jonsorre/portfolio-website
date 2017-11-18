@@ -115,10 +115,11 @@
     right:0px;
     z-index:200;
     padding:166px 20px 0;
+    background-attachment:fixed;
 }
 
 #panel p {
-    margin:0 0 30px;
+    margin:0 0 15px;
     font-size: var(--body-s);
 }
 
