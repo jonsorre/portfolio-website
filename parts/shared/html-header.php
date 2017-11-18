@@ -60,22 +60,89 @@
                 <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
                   <div class="hed-m title-bar-title"><a href="<?php echo site_url(); ?>">Studio Sorrentino</a></div>
                     <button class="c-hamburger c-hamburger--htx">
-                    	<span>Toggle</span>
+                    	<!-- <button> -->
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 30 30" style="enable-background:new 0 0 30 30;" xml:space="preserve">
+<style type="text/css">
+	.st0{clip-path:url(#SVGID_2_);}
+	.st1{clip-path:url(#SVGID_4_);fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st2{clip-path:url(#SVGID_6_);}
+	.st3{clip-path:url(#SVGID_8_);fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
+	.st4{clip-path:url(#SVGID_10_);}
+	.st5{clip-path:url(#SVGID_12_);fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
+</style>
+<g>
+	<g>
+		<defs>
+			<rect id="SVGID_1_" x="4.5" y="6" width="21" height="4"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st0">
+			<defs>
+				<rect id="SVGID_3_" x="-319.5" y="-61" width="375" height="1392"/>
+			</defs>
+			<clipPath id="SVGID_4_">
+				<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+			</clipPath>
+			<rect x="4.5" y="6" class="st1" width="21" height="4"/>
+			<use xlink:href="#SVGID_3_"  style="overflow:visible;fill:none;stroke:#FFFFFF;stroke-miterlimit:10;"/>
+		</g>
+		
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:#FFFFFF;stroke-miterlimit:10;"/>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_5_" x="4.5" y="13" width="21" height="4"/>
+		</defs>
+		<clipPath id="SVGID_6_">
+			<use xlink:href="#SVGID_5_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st2">
+			<defs>
+				<rect id="SVGID_7_" x="-319.5" y="-61" width="375" height="1392"/>
+			</defs>
+			<clipPath id="SVGID_8_">
+				<use xlink:href="#SVGID_7_"  style="overflow:visible;"/>
+			</clipPath>
+			<rect x="4.5" y="13" class="st3" width="21" height="4"/>
+			<use xlink:href="#SVGID_7_"  style="overflow:visible;fill:none;stroke:#FFFFFF;stroke-miterlimit:10;"/>
+		</g>
+		
+			<use xlink:href="#SVGID_5_"  style="overflow:visible;fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:#FFFFFF;stroke-miterlimit:10;"/>
+	</g>
+	<g>
+		<defs>
+			<rect id="SVGID_9_" x="4.5" y="20" width="21" height="4"/>
+		</defs>
+		<clipPath id="SVGID_10_">
+			<use xlink:href="#SVGID_9_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st4">
+			<defs>
+				<rect id="SVGID_11_" x="-319.5" y="-61" width="375" height="1392"/>
+			</defs>
+			<clipPath id="SVGID_12_">
+				<use xlink:href="#SVGID_11_"  style="overflow:visible;"/>
+			</clipPath>
+			<rect x="4.5" y="20" class="st5" width="21" height="4"/>
+			<use xlink:href="#SVGID_11_"  style="overflow:visible;fill:none;stroke:#FFFFFF;stroke-miterlimit:10;"/>
+		</g>
+		
+			<use xlink:href="#SVGID_9_"  style="overflow:visible;fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:#FFFFFF;stroke-miterlimit:10;"/>
+	</g>
+</g>
+</svg>
+
+
                     </button>
                 </div>
 
                 <nav>
 
                     <div id="panel">
-                    	<div class="internal">
-	                        <p>Internal</p>
-	                        <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => ' ', 'menu_class' => 'pages', 'container' => false ) ); ?>
-	                    </div>
-
-	                    <div class="external">
-	                    	<p>External</p>
-	                        <?php wp_nav_menu( array( 'theme_location' => 'secondary', 'menu_id' => ' ', 'menu_class' => 'pages', 'container' => false ) ); ?>
-	                    </div>
+                        <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => ' ', 'menu_class' => 'pages', 'container' => false ) ); ?>
                     </div>
 
                     <div class="top-bar" id="responsive-menu">
