@@ -462,17 +462,7 @@ opacity:1;
     }
 
     #footer-links ul {
-    padding-left:0;
-    margin-bottom:30px;
-    }
-
-    #footer-links li {
-    display:list-item;
-    margin-bottom:15px;
-    }   
-
-    #footer-cta.--proj {
-    margin-top:0;
+    display:none;
     }
 
     #info-row-1 {
