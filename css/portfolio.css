@@ -431,16 +431,9 @@ opacity:1;
         margin:90px -20px 0;
     }
 
-    #yesorno .--1 {
-    margin-left:-5%;
-    }
-
-    #yesorno .--2 {
-    margin-left:-20%;
-    }
-
-    @-webkit-keyframes myfirst {
-    100% {transform: translate(-200px, 0);}
+    #mymarquee {
+        -webkit-marquee-speed: slow;
+        marquee-speed: slow;
     }
 
     #project-info {
