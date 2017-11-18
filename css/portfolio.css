@@ -427,20 +427,7 @@ opacity:1;
     }
 
     #yesorno {
-        overflow:hidden;
         margin:90px -20px 0;
-    }
-
-    #yesorno .--1 {
-    margin-left:-5%;
-    }
-
-    #yesorno .--2 {
-    margin-left:-20%;
-    }
-
-    @-webkit-keyframes myfirst {
-    100% {transform: translate(-200px, 0);}
     }
 
     #project-info {
@@ -461,15 +448,9 @@ opacity:1;
     text-align:left;
     }
 
-    #footer-links ul {
-    padding-left:0;
-    margin-bottom:30px;
+    #footer-links {
+        display:none;
     }
-
-    #footer-links li {
-    display:list-item;
-    margin-bottom:15px;
-    }   
 
     #footer-cta.--proj {
     margin-top:0;
