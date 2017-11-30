@@ -71,12 +71,12 @@
                     	<div class="hed-m panel-title"><a href="<?php echo site_url(); ?>">Studio Sorrentino</a></div>
 
                     	<div class="internal">
-	                        <p>Internal</p>
+	                        <p>Here</p>
 	                        <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => ' ', 'menu_class' => 'pages', 'container' => false ) ); ?>
 	                    </div>
 
 	                    <div class="external">
-	                    	<p>External</p>
+	                    	<p>Elsewhere</p>
 	                        <?php wp_nav_menu( array( 'theme_location' => 'secondary', 'menu_id' => ' ', 'menu_class' => 'pages', 'container' => false ) ); ?>
 	                    </div>
                     </div>

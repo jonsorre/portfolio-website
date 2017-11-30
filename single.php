@@ -15,7 +15,7 @@
 
 
 	<div id="project-info" class="grid-x grid-padding-x">
-			<div id="project-title" class="large-7 large-offset-5 small-12 columns cell">
+			<div id="project-title" class="large-7 large-offset-5 small-12 cell">
 				<h2 class="hed-l title"><?php the_title(); ?></h2>
 
                 
