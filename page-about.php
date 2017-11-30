@@ -54,54 +54,6 @@
 	</div>
 
 	<div id="info-row-2" class="grid-x grid-padding-x">
-		
-		<!-- <div class="small-12 large-3 cell">
-			<h5>Previous</h5>
-			<?php
-
-			// The Query
-			$the_query = new WP_Query( 'category_name=previous' );
-
-			// The Loop
-			if ( $the_query->have_posts() ) {
-			        echo '<ul class="info-list">';
-				while ( $the_query->have_posts() ) {
-					$the_query->the_post();
-					echo '<li>' . get_the_content() . '</li>';
-				}
-			        echo '</ul>';
-			} else {
-				// no posts found
-			}
-			/* Restore original Post Data */
-			wp_reset_postdata();
-		?>
-		
-		</div> -->
-
-		<!-- <div class="small-12 large-4 cell">
-			<h5>Speaking</h5>
-			<?php
-
-			// The Query
-			$the_query = new WP_Query( 'category_name=speaking' );
-
-			// The Loop
-			if ( $the_query->have_posts() ) {
-			        echo '<ul class="info-list">';
-				while ( $the_query->have_posts() ) {
-					$the_query->the_post();
-					echo '<li>' . get_the_content() . '</li>';
-				}
-			        echo '</ul>';
-			} else {
-				// no posts found
-			}
-			/* Restore original Post Data */
-			wp_reset_postdata();
-		?>
-		
-		</div> -->
 
 		<div class="small-12 large-4 large-offset-5 cell">
 			<h4 class="hed-m">Achievements</h4>

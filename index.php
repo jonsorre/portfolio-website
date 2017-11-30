@@ -41,7 +41,7 @@
 							  	<div class="grid-sizer"></div>
 							  	<div class="gutter-sizer"></div>
 	
-				<?php query_posts('category_name=work&posts_per_page=7'); ?>
+				<?php query_posts('category_name=work&posts_per_page=5'); ?>
 
 
 				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
@@ -49,7 +49,7 @@
 				
 					<a href="<?php esc_url( the_permalink() ); ?>" title="<?php the_title(); ?>" rel="bookmark">
 					<div <?php post_class( 'grid-item', $post_id ); ?>>
-						<div class="index-thumb" style="background:url('<?php the_post_thumbnail_url( large ); ?>'); background-position: center center; background-size: cover, cover; background-repeat: no-repeat;">
+						<div class="index-thumb" style="background:url('<?php the_post_thumbnail_url( full ); ?>'); background-position: center center; background-size: cover, cover; background-repeat: no-repeat;">
 						<!-- <?php echo get_the_post_thumbnail( $post_id, 'large', $attr ); ?> -->
 						</div>
 						
