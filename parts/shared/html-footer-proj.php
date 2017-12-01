@@ -11,7 +11,7 @@
                         </div>
 
                         <div id="footer-rights" class="large-5 medium-12 cell">
-                            <span class="body">© 2017 Jon Sorrentino. All rights reserved.</span>
+                            <article class="body">© 2017 Jon Sorrentino. All rights reserved.</article>
                         </div>
                     </div>
                 </div>
