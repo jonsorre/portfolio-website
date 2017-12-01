@@ -20,23 +20,26 @@
 	<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 			
 			<div id="project-title" class="large-12 cell">
-				<h2 class="hed-xl title"><?php the_subtitle(); ?></h2>
+				<h2 class="hed-l title"><?php the_title(); ?></h2>
+				<!-- <h2 class="hed-xl title"><?php the_subtitle(); ?></h2> -->
 			</div>
 			
 	</div>
 
-<ul class="grid-x grid-padding-x">
+<ol reversed id="archive-list" class="grid-x grid-padding-x">
 <?php
 
 			// The Query
-			$the_query = new WP_Query( 'category_name=work' );
+			$the_query = new WP_Query( 'category_name=work,viceland' );
 
 			while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
-			<li class="large-12 cell">
+				
+
+			<li class="archive-item large-12 cell">
 			<a href="<?php esc_url( the_permalink() ); ?>" title="<?php the_title(); ?>" rel="bookmark">
-			
-				<h4 class="hed-l"><?php the_field('archive_subtitle'); ?></h4>
 				<h2 class="hed-m"><?php the_title(); ?></h2>
+				<h4 class="body"><?php the_subtitle(); ?></h4>
+				
 			
 			</a>
 			</li>
@@ -50,7 +53,7 @@
 			
 	
 <?php endwhile; ?>
-</ul>
+</ol>
 
 
 
