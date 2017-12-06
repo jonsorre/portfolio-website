@@ -14,13 +14,17 @@
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 		<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/img/favicon.png"/>
 		
-<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/img/burger-3.svg" type="text/css" charset="utf-8" />
+		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/img/burger-3.svg" type="text/css" charset="utf-8" />
 
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/var.css" type="text/css" charset="utf-8" />
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/mobile-menu.css" type="text/css" charset="utf-8" />
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/foundation.css" type="text/css" charset="utf-8" />
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/portfolio.css" type="text/css" charset="utf-8" />
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/fonts/ssfonts.css" type="text/css" charset="utf-8" />
+		
+		<noscript>
+		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/no-js.css" type="text/css" charset="utf-8" />
+		</noscript>
 
 
 	
