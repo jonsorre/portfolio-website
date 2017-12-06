@@ -39,6 +39,7 @@
 
 
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <script type="text/javascript" src="http://code.jquery.com/ui/1.8.18/jquery-ui.min.js"></script>
 
             <script src="<?php bloginfo('template_url'); ?>/js/what-input.js"></script>
             <script src="<?php bloginfo('template_url'); ?>/js/foundation.min.js"></script>
@@ -103,5 +104,37 @@
             </script>
 
             <!--------- FOR HAMBURGER ----------------->
+
+            <!-- FADE OUT PAGE -->
+
+           <script>
+            
+                $(document).ready(function() {
+
+                $('#wrapper').css('opacity', 1);
+                $('body').css('opacity', 1);    
+
+                $('.link').click(function() {
+
+                event.preventDefault();
+
+                newLocation = this.href;
+
+                $('body').css('opacity', 0);
+                $('#wrapper').css('opacity', 0);
+                
+
+                });
+
+                function newpage() {
+
+                window.location = newLocation;
+
+                }
+
+                });
+            </script>
+
+            <!-- FADE OUT PAGE -->
 </body>
 </html>

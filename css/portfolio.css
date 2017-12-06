@@ -33,6 +33,8 @@
 body {
     background: -webkit-linear-gradient(#002067, #FF3D94);
     color: var(--text-color);
+    opacity:0;
+    transition:all 1s ease;
 }
 
 
@@ -91,6 +93,8 @@ body.info {
 
 #wrapper {
     margin-top:210px;
+    opacity:0;
+    transition:all 3s ease;
 } 
 
 #site-head {

@@ -98,5 +98,37 @@
             </script>
 
             <!--------- FOR HAMBURGER ----------------->
+
+            <!-- FADE OUT PAGE -->
+
+            <script>
+            
+                $(document).ready(function() {
+
+                $('#wrapper').css('opacity', 1);
+                $('body').css('opacity', 1);    
+
+                $('.link').click(function() {
+
+                event.preventDefault();
+
+                newLocation = this.href;
+
+                $('body').css('opacity', 0);
+                $('#wrapper').css('opacity', 0);
+                
+
+                });
+
+                function newpage() {
+
+                window.location = newLocation;
+
+                }
+
+                });
+            </script>
+
+            <!-- FADE OUT PAGE -->
 </body>
 </html>

@@ -19,15 +19,14 @@
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/var.css" type="text/css" charset="utf-8" />
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/mobile-menu.css" type="text/css" charset="utf-8" />
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/foundation.css" type="text/css" charset="utf-8" />
-		<!-- <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/portfolio.php" type="text/css" charset="utf-8" /> -->
+
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/portfolio.css" type="text/css" charset="utf-8" />
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/fonts/ssfonts.css" type="text/css" charset="utf-8" />
 
+		<noscript>
+		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/no-js.css" type="text/css" charset="utf-8" />
+		</noscript>
 
-	
-		
-	
-	
 		
 	
 	
