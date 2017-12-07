@@ -92,7 +92,7 @@ body.info {
 }
 
 #wrapper {
-    margin-top:210px;
+    margin-top:180px;
     opacity:0;
     transition:all 3s ease;
 } 
@@ -379,7 +379,7 @@ opacity:1;
 
 .grid-item {
         width:100%;
-        height:55vh;
+        height:478px;
         }
 
 	#footer-rights article {
@@ -404,7 +404,7 @@ opacity:1;
 
 	.grid-item {
         width:100%;
-        height:50vh;
+        height:338px;
         }
 	#footer-rights article {
 		text-align:left;
