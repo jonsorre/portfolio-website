@@ -103,30 +103,22 @@
 
             <script>
             
-                $(document).ready(function() {
+                $(document).ready(function(){
+                $("#curtain").delay(250).fadeOut(300);
+                $("#project-info").css("opacity", "0");
+                $("#project-info").delay(500).fadeTo(500, 1);
+                $("#project-images").css("opacity", "0");
+                $("#project-images").delay(750).fadeTo(500, 1);
+                    $("a").click(function(event){
+                        event.preventDefault();
+                        linkLocation = this.href;
+                        $("#grid-wrapper").fadeOut(300, redirectPage);      
+                    });
 
-                $('#wrapper').css('opacity', 1);
-                $('body').css('opacity', 1);    
-
-                $('.link').click(function() {
-
-                event.preventDefault();
-
-                newLocation = this.href;
-
-                $('body').css('opacity', 0);
-                $('#wrapper').css('opacity', 0);
-                
-
-                });
-
-                function newpage() {
-
-                window.location = newLocation;
-
-                }
-
-                });
+                    function redirectPage() {
+                        window.location = linkLocation;
+                    }
+            });
             </script>
 
             <!-- FADE OUT PAGE -->
