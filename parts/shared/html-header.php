@@ -54,6 +54,7 @@
 	</head>
 	
 	<body <?php body_class(); ?>>
+		<div id="curtain"></div>
 
 		 <div id="grid-wrapper">
             <div class="grid-container">

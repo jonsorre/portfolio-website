@@ -49,9 +49,9 @@
 		
 	</head>
 	
-	<body <?php body_class(); ?> style="background: -webkit-linear-gradient(<?php the_field('bgcolor1'); ?>, <?php the_field('bgcolor2'); ?>)">
-
-		 <div id="grid-wrapper">
+	<body <?php body_class(); ?>>
+		<div id="curtain"></div>
+		 <div id="grid-wrapper" style="background: -webkit-linear-gradient(<?php the_field('bgcolor1'); ?>, <?php the_field('bgcolor2'); ?>)">
             <div class="grid-container">
 
 

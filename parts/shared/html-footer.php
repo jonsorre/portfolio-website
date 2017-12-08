@@ -103,36 +103,24 @@
             });
             </script>
 
-            <!--------- FOR HAMBURGER ----------------->
+            <!-------- FOR HAMBURGER -------->
 
-            <!-- FADE OUT PAGE -->
+            <!----- FADE OUT PAGE ---->
 
            <script>
             
-                $(document).ready(function() {
-
-                $('#wrapper').css('opacity', 1);
-                $('body').css('opacity', 1);    
-
-                $('.link').click(function() {
-
-                event.preventDefault();
-
-                newLocation = this.href;
-
-                $('body').css('opacity', 0);
-                $('#wrapper').css('opacity', 0);
-                
-
+                $(document).ready(function(){
+                $("#curtain").delay(250).fadeOut(300);
+                $("a").click(function(event){
+                    event.preventDefault();
+                    linkLocation = this.href;
+                    $("#grid-wrapper").fadeOut(300, redirectPage);      
                 });
 
-                function newpage() {
-
-                window.location = newLocation;
-
+                function redirectPage() {
+                    window.location = linkLocation;
                 }
-
-                });
+            });
             </script>
 
             <!-- FADE OUT PAGE -->
