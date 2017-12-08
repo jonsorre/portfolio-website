@@ -21,6 +21,7 @@
     -webkit-text-fill-color: rgba(0,0,0,0); /* Will override color (regardless of order) */
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: var(--text-color);
+    -webkit-font-smoothing: antialiased;
 }
 
 .body {
