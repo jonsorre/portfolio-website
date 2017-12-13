@@ -20,27 +20,19 @@
 
 
 	<div  id="site-head" class="grid-x grid-padding-x align-center">
+	<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 		<div class="small-12 large-12 cell">
 
-		<?php
-
-
-		$args = array( 'category' => 59 );
-
-		$myposts = get_posts( $args );
-		foreach ( $myposts as $post ) : setup_postdata( $post ); ?>
 			<h1 class="hed-l">
-				<?php echo get_the_content(); ?>
+				<?php the_subtitle(); ?>
 			</h1>
-		<?php endforeach; 
-		wp_reset_postdata();?>
 
 
 		</div>
 	</div>
 
 	<div id="info-row-1" class="grid-x grid-padding-x">
-	<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
+	
 		
 		
 			<div class="large-7 large-offset-5 small-12 cell">
