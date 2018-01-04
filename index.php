@@ -36,7 +36,7 @@
 		</div>
 	</div>
 
-				<div class="grid">
+				<div id="work-section" class="grid">
 							  	
 							  	<div class="grid-sizer"></div>
 							  	<div class="gutter-sizer"></div>
