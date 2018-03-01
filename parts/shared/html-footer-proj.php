@@ -6,11 +6,11 @@
 
 
                     <div id="footer_links" class="grid-x grid-padding-x">
-                        <div id="footer-links" class="large-7 medium-12 cell">                        
+                        <div id="footer-links" class="large-6 medium-12 cell">                        
                                 <?php wp_nav_menu( array( 'theme_location' => 'secondary', 'menu_id' => ' ', 'menu_class' => ' ', 'container' => false ) ); ?>
                         </div>
 
-                        <div id="footer-rights" class="large-5 medium-12 cell">
+                        <div id="footer-rights" class="large-6 medium-12 cell">
                             <article class="body">© 2017 Jon Sorrentino. All rights reserved.</article>
                         </div>
                     </div>

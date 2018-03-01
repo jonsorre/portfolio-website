@@ -1,3 +1,4 @@
+/*ANOTHER TEST 3/1/18*/
 /*CHECKING MORE TESTS*/
 
 .hed-xl {
@@ -18,10 +19,6 @@
     font-size: var(--hed-m);
     line-height: var(--alt-line-height);
     font-weight: var(--text-weight);
-    -webkit-text-fill-color: rgba(0,0,0,0); /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: var(--text-color);
-    -webkit-font-smoothing: antialiased;
 }
 
 .body {
@@ -104,7 +101,7 @@ body.info {
 }
 
 #wrapper {
-    margin-top:180px;
+    margin-top:120px;
     /*opacity:0;*/
     /*transition:all 3s ease;*/
 } 
@@ -324,7 +321,6 @@ opacity:1;
 
 #footer-rights article {
     font-size: var(--body-s);
-    line-height:3.2;
     text-align:right;
 }
 
@@ -334,9 +330,6 @@ opacity:1;
     font-size: var(--hed-m);
     font-family: var(--alt-font);
     line-height: var(--hed-line-height);
-    -webkit-text-fill-color: rgba(0,0,0,0); /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: var(--text-color);
     margin-right:60px;
     line-height: 1.2em;
     vertical-align: bottom;
@@ -460,7 +453,7 @@ opacity:1;
     }
 
     #wrapper {
-        margin-top:90px;
+        margin-top:60px;
     }
 
     #site-head {
