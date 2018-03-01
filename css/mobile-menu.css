@@ -4,7 +4,7 @@
         display: block;
         position: absolute;
         right:4px;
-        top: 30px;
+        top: 15px;
         width: 60px;
         height: 60px;
         font-size: 0;
@@ -119,14 +119,14 @@
     left:0px;
     right:0px;
     z-index:200;
-    padding:166px 20px 0;
+    padding:100px 20px 0;
     background-attachment:fixed;
 }
 
 .panel-title {
     width: 235px;
     position: absolute;
-    top: 30px;
+    top: 32px;
     left: 18px;
 }
 
@@ -141,13 +141,10 @@
 
 #panel li {
     list-style:none;
-    font-family: var(--alt-font);
-    font-size: var(--hed-m);
+    font-family: var(--hed-font);
+    font-size: var(--hed-l);
     line-height: var(--alt-line-height);
     font-weight: var(--text-weight);
-    -webkit-text-fill-color: rgba(0,0,0,0); /* Will override color (regardless of order) */
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: var(--text-color);
     margin-bottom:15px;
 }
 
