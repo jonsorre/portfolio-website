@@ -19,7 +19,7 @@
 
 
 
-	<div  id="site-head" class="grid-x grid-padding-x align-center">
+	<!-- <div  id="site-head" class="grid-x grid-padding-x align-center">
 	<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 		<div class="small-12 large-12 cell">
 
@@ -29,14 +29,14 @@
 
 
 		</div>
-	</div>
+	</div> -->
 
 	<div id="info-row-1" class="grid-x grid-padding-x">
 	
 		
 		
-			<div class="large-7 large-offset-5 small-12 cell">
-				<h4 class="hed-m">Info</h4>		
+			<div class="info large-12 small-12 cell">
+					
 				<?php the_content(); ?>
 					
 			</div>
@@ -47,8 +47,8 @@
 
 	<div id="info-row-2" class="grid-x grid-padding-x">
 
-		<div class="small-12 large-4 large-offset-5 cell">
-			<h4 class="hed-m">Achievements</h4>
+		<div class="info small-12 large-6 cell">
+			
 			<?php
 
 			// The Query
@@ -71,8 +71,8 @@
 		
 		</div>
 
-		<div class="large-3 cell">
-				<h4 class="hed-m">Contact</h4>
+		<div class="info large-6 cell">
+				
 				
 				<?php
 
