@@ -112,14 +112,14 @@
 /*------- PANEL --------*/
 #panel {
     display: none;
-    background:#36363C;
+    background:#0000FF;
     position:fixed;
     top:0px;
     bottom:0px;
     left:0px;
     right:0px;
     z-index:200;
-    padding:140px 20px 0;
+    padding:100px 20px 0;
     background-attachment:fixed;
 }
 
@@ -142,7 +142,7 @@
 #panel li {
     list-style:none;
     font-family: var(--hed-font);
-    font-size: var(--hed-l-s);
+    font-size: var(--hed-l);
     line-height: var(--alt-line-height);
     font-weight: var(--text-weight);
     margin-bottom:15px;

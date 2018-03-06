@@ -12,7 +12,7 @@
 }
 
 .hed-m {
-    font-family: var(--body-font);
+    font-family: var(--alt-font);
     font-size: var(--hed-m);
     line-height: var(--alt-line-height);
     font-weight: var(--text-weight);
@@ -45,7 +45,7 @@ body {
 
 #grid-wrapper {
     overflow:hidden;
-    background: -webkit-linear-gradient(#F9BADA, #D8DDFC);
+    background: -webkit-linear-gradient(#002067, #FF3D94);
 }
 
 a, a:visited {
@@ -97,10 +97,6 @@ body.info {
     margin-right:0;
 }
 
-.top-bar-left li, .title-bar-title , .panel-title {
-    font-family:var(--alt-font);
-}
-
 #wrapper {
     margin-top:120px;
     /*opacity:0;*/
@@ -130,8 +126,13 @@ background:#0000FF;
 }
 
 
+<<<<<<< HEAD
 .portfolio-item:hover .overlay-info {
 background-color:#36363C;
+=======
+.grid-item:hover .overlay-info {
+background-color:rgba(0, 0, 255, 0.9);
+>>>>>>> parent of a5441b4... More branding-ish decisions and styling changes.
 opacity:1;                
 }
 
@@ -240,16 +241,11 @@ opacity:1;
 /*          ABOUT PAGE*/
 /**/
 
-.info p, .info li {
-    font-size:var(--hed-m);
-}
-
 .info-list {
     font-size:var(--body);
     line-height:var(--body-line-height);
     list-style:none;
     margin-left:0;
-    margin-top:32px;
 }
 
 #info-row-1 {
@@ -289,15 +285,15 @@ opacity:1;
 }
 
 #footer-rights article {
+    font-size: var(--body-s);
     text-align:right;
-    line-height:2.5;
 }
 
 #footer-links li {
     display: inline;
     list-style-type: none;
     font-size: var(--hed-m);
-    font-family: var(--body-font);
+    font-family: var(--alt-font);
     line-height: var(--hed-line-height);
     margin-right:60px;
     line-height: 1.2em;
@@ -389,18 +385,23 @@ opacity:1;
 @media screen and (min-device-width: 300px) and (max-device-width: 425px) and (-webkit-min-device-pixel-ratio: 1) { 
 
     .hed-xl {
+        font-family: var(--hed-font);
         font-size: var(--hed-xl-s);
+        line-height: var(--hed-line-height);
     }
 
     .hed-l {
+        font-family: var(--hed-font);
         font-size: var(--hed-l-s);
+        line-height: var(--hed-line-height);
+        font-weight: var(--text-weight);
     }
 
-    .hed-m {
-        font-size:var(--hed-l-s);
-    }
-    .info p, .info li {
-    font-size:var(--body);
+    .body {
+        font-family: var(--body-font);
+        font-size: var(--body-s);
+        line-height: var(--body-line-height);
+        font-weight: var(--text-weight);
     }
 
     #grid-wrapper {
@@ -425,7 +426,7 @@ opacity:1;
     }
 
     #site-head h1 {
-        font-size:var(--hed-l-s);
+        font-size: var(--hed-l-s-alt);
     }
 
     .grid {
@@ -435,10 +436,6 @@ opacity:1;
     .portfolio-item {
         width:100%;
         height:188px;
-    }
-
-    #footer-rights article {
-        text-align:center;
     }
 
     #yesorno {
@@ -485,8 +482,12 @@ opacity:1;
     margin-bottom:0;
     }
 
+    #info-row-1 > div {
+    margin-bottom:3.750rem;
+    }
+
     #info-row-2 > div {
-    margin-bottom:30px
+    margin-bottom:3.750rem
     }
 
     #project-images img {
