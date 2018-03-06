@@ -63,7 +63,7 @@
 
             	<!-- TOP BAR -->
                 <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
-                  <div class="hed-m title-bar-title"><a href="<?php echo site_url(); ?>">Studio Sorrentino</a></div>
+                  <div class="hed-m title-bar-title"><a href="<?php echo site_url(); ?>">Ciao.</a></div>
                     <button class="c-hamburger c-hamburger--htx">
                     	<span>Toggle</span>
                     </button>
@@ -73,7 +73,7 @@
 
                     <div id="panel">
 
-                    	<div class="hed-m panel-title"><a href="<?php echo site_url(); ?>">Studio Sorrentino</a></div>
+                    	<div class="hed-m panel-title"><a href="<?php echo site_url(); ?>">Ciao.</a></div>
 
                     	<div class="internal">
 	                        <p>Here</p>
@@ -89,7 +89,7 @@
                     <div class="top-bar" id="responsive-menu">
                       <div class="top-bar-left">
                         <ul class="dropdown menu" data-dropdown-menu>
-                          <li class="hed-m menu-text"><a href="<?php echo site_url(); ?>">Studio Sorrentino</a></li>
+                          <li class="hed-m menu-text"><a href="<?php echo site_url(); ?>">Ciao.</a></li>
                           
                         </ul>
                       </div>

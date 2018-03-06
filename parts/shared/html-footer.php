@@ -39,34 +39,16 @@
 
 
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-            <script type="text/javascript" src="http://code.jquery.com/ui/1.8.18/jquery-ui.min.js"></script>
+            
 
             <script src="<?php bloginfo('template_url'); ?>/js/what-input.js"></script>
             <script src="<?php bloginfo('template_url'); ?>/js/foundation.min.js"></script>
 
-            <script src="<?php bloginfo('template_url'); ?>/js/masonry.js"></script>
+            
         
 
             <script>
             $(document).foundation();
-            </script>
-
-            <script>
-                $('.grid').masonry({
-                itemSelector: '.grid-item',
-                columnWidth: '.grid-sizer',
-                gutter:30,
-                percentPosition: true
-                
-                });
-            </script>
-
-            <script>
-            $(document).on("click","input#mce-EMAIL",function() {
-            if ($("input#mce-EMAIL").val() !== "") {
-            $("input#mce-EMAIL").val("") = ""
-            }
-            });
             </script>
 
             <!----- FOR HAMBURGER ------>
