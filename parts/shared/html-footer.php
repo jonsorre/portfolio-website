@@ -13,11 +13,11 @@
             <div class="grid-container">
 
                 <div id="footer_links" class="grid-x grid-padding-x">
-                    <div id="footer-links" class="large-7 medium-12 cell">                        
+                    <div id="footer-links" class="large-6 medium-12 cell">                        
                             <?php wp_nav_menu( array( 'theme_location' => 'secondary', 'menu_id' => ' ', 'menu_class' => ' ', 'container' => false ) ); ?>
                     </div>
 
-                    <div id="footer-rights" class="large-5 medium-12 cell">
+                    <div id="footer-rights" class="large-6 medium-12 cell">
                         <article class="body">© 2017 Jon Sorrentino. All rights reserved.</article>
                     </div>
                 </div>
@@ -39,35 +39,17 @@
 
 
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-            <script type="text/javascript" src="http://code.jquery.com/ui/1.8.18/jquery-ui.min.js"></script>
 
             <script src="<?php bloginfo('template_url'); ?>/js/what-input.js"></script>
             <script src="<?php bloginfo('template_url'); ?>/js/foundation.min.js"></script>
 
-            <script src="<?php bloginfo('template_url'); ?>/js/masonry.js"></script>
+
         
 
             <script>
             $(document).foundation();
             </script>
 
-            <script>
-                $('.grid').masonry({
-                itemSelector: '.grid-item',
-                columnWidth: '.grid-sizer',
-                gutter:30,
-                percentPosition: true
-                
-                });
-            </script>
-
-            <script>
-            $(document).on("click","input#mce-EMAIL",function() {
-            if ($("input#mce-EMAIL").val() !== "") {
-            $("input#mce-EMAIL").val("") = ""
-            }
-            });
-            </script>
 
             <!----- FOR HAMBURGER ------>
 
