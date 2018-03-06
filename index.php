@@ -36,10 +36,76 @@
 		</div>
 	</div>
 
+				<div class="grid-x grid-padding-x">
+					<div class="large-6 cell">
+						<h2>Likes</h2>
+						<div class="grid-x grid-padding-x">
+							<div class="large-6 cell">
+								<ul>
+									<li>Like</li>
+									<li>Like</li>
+									<li>Like</li>
+									<li>Like</li>
+									<li>Like</li>
+									<li>Like</li>
+									<li>Like</li>
+									<li>Like</li>
+									<li>Like</li>
+									<li>Like</li>
+								</ul>
+							</div>
+							<div class="large-6 cell">
+								<ul>
+									<li>Like</li>
+									<li>Like</li>
+									<li>Like</li>
+									<li>Like</li>
+									<li>Like</li>
+									<li>Like</li>
+									<li>Like</li>
+									<li>Like</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="large-6 cell">
+						<h2>Dislikes</h2>
+						<div class="grid-x grid-padding-x">
+							<div class="large-6 cell">
+								<ul>
+									<li>Like</li>
+									<li>Like</li>
+									<li>Like</li>
+									<li>Like</li>
+									<li>Like</li>
+									<li>Like</li>
+									<li>Like</li>
+									<li>Like</li>
+									<li>Like</li>
+									<li>Like</li>
+								</ul>
+							</div>
+							<div class="large-6 cell">
+								<ul>
+									<li>Like</li>
+									<li>Like</li>
+									<li>Like</li>
+									<li>Like</li>
+									<li>Like</li>
+									<li>Like</li>
+									<li>Like</li>
+									<li>Like</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
 				<div id="work-section" class="grid-x">
 							  	
 						
-	
+				<h4 class="hed-l">These are some projects I've worked on...</h4>
 				<?php query_posts('category_name=work&posts_per_page=5'); ?>
 
 

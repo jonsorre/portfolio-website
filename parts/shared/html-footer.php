@@ -87,24 +87,5 @@
 
             <!-------- FOR HAMBURGER -------->
 
-            <!----- FADE OUT PAGE ---->
-
-           <script>
-            
-                $(document).ready(function(){
-                $("#curtain").delay(250).fadeOut(300);
-                $("a").click(function(event){
-                    event.preventDefault();
-                    linkLocation = this.href;
-                    $("#grid-wrapper").fadeOut(300, redirectPage);      
-                });
-
-                function redirectPage() {
-                    window.location = linkLocation;
-                }
-            });
-            </script>
-
-            <!-- FADE OUT PAGE -->
 </body>
 </html>
