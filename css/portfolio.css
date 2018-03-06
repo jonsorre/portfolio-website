@@ -14,14 +14,14 @@
 }
 
 .hed-m {
-    font-family: var(--body-font);
+    font-family: var(--hed-font);
     font-size: var(--hed-m);
     line-height: var(--alt-line-height);
     font-weight: var(--text-weight);
 }
 
 .body {
-    font-family: var(--body-font);
+    font-family: var(--hed-font);
     font-size: var(--body);
     line-height: var(--body-line-height);
     font-weight: var(--text-weight);
@@ -100,7 +100,7 @@ body.info {
 }
 
 .top-bar-left li, .title-bar-title , .panel-title {
-    font-family:var(--alt-font);
+    font-family:var(--hed-font);
 }
 
 #wrapper {

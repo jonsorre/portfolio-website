@@ -54,7 +54,6 @@
 	</head>
 	
 	<body <?php body_class(); ?>>
-		<div id="curtain"></div>
 
 		 <div id="grid-wrapper">
             <div class="grid-container">
@@ -73,7 +72,7 @@
 
                     <div id="panel">
 
-                    	<div class="hed-m panel-title"><a href="<?php echo site_url(); ?>">Ciao.</a></div>
+                    	
 
                     	<div class="internal">
 	                        <p>Here</p>
