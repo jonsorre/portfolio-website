@@ -99,7 +99,7 @@ body.info {
 /**/
 
 .top-bar {
-    margin-top:120px;
+    margin-top:80px;
 }
 
 .top-bar li {
@@ -125,21 +125,32 @@ body.info {
 }
 
 @-webkit-keyframes arrowz {
-    0% { transform: rotate(-65deg); opacity:0.1; }
+    0% { transform: rotate(-45deg); opacity:0.1; }
     100% { transform: rotate(-180deg); opacity:1;}
 }
 
 @keyframes arrowz {
-    0% { transform: rotate(-65deg); opacity:.1; }
+    0% { transform: rotate(-45deg); opacity:.1; }
     100% { transform: rotate(-180deg); opacity:1;}
 }
+
+/*@keyframes hover {
+    0% {left:0px; opacity:1;}
+    100% {left:2px; opacity:1; }
+}*/
 
 #arrow {
     font-weight:800;
     opacity:0;
-    -webkit-animation: arrowz .75s cubic-bezier(.97,.01,.22,1) 1 forwards;
-    animation: arrowz .75s cubic-bezier(.97,.01,.22,1) 1 forwards;    
+    -webkit-animation: arrowz .5s cubic-bezier(.97,.01,.22,1) 1 forwards;
+    animation: arrowz .5s cubic-bezier(.97,.01,.22,1) 1 forwards;  
+    position:relative;
+    
 }
+
+/*#arrow:hover {
+    animation: hover .15s ease-in-out infinite alternate both;  
+}*/
 
 #arrow.desktop {
     width:30px;
@@ -151,6 +162,8 @@ body.info {
 
 #wrapper {
     margin-top:180px;
+    margin-left:.625rem;
+    margin-right:.625rem;
     /*opacity:0;*/
     /*transition:all 3s ease;*/
 } 
@@ -355,14 +368,6 @@ body.info {
 }
 
 @media (min-width: 850px) and (max-width: 1080px) { 
-/*
-    #grid-wrapper {
-        padding:0 30px;
-    }*/
-
-    .grid {
-        margin:0 15px;
-    }
 
     #grid-wrapper {
         padding:0 45px;
@@ -373,21 +378,9 @@ body.info {
         height:478px;
         }
 
-	#footer-rights article {
-		text-align:left;
-	}
-
 }
 
 @media (min-width: 450px) and (max-width: 850px) { 
-/*
-    #grid-wrapper {
-        padding:0 30px;
-    }*/
-
-    .grid {
-        margin:0 15px;
-    }
 
     #grid-wrapper {
         padding:0 15px;
@@ -397,9 +390,6 @@ body.info {
         width:100%;
         height:338px;
         }
-	#footer-rights article {
-		text-align:left;
-	}
 
 }
 
@@ -434,60 +424,29 @@ body.info {
     }
 
     #wrapper {
-        margin-top:60px;
+        margin-top:80px;
     }
 
     #site-head {
-        margin-bottom:60px;
+        margin-bottom:80px;
     }
 
     #site-head h1 {
         font-size:var(--hed-l-s);
     }
 
-    .grid {
-    margin:0 15px;
+    #likes-dislikes {
+        margin-bottom: 80px;
     }
 
     .work-item {
         width:100%;
         height:188px;
-    }
-
-    #footer-rights article {
-        text-align:center;
-    }
-
-    #yesorno {
-        overflow:hidden;
-        margin:90px -20px 0;
-    }
-
-    #yesorno h3 {
-        animation:slide 15s linear infinite alternate;
-    }
-
-    #yesorno .odd {
-        animation:slide 15s linear infinite alternate-reverse;
-    }
-
-    @keyframes slide {
-        0% {transform: translateX(0px);}
-        100% {transform: translateX(-600px);}
-    }
-
-    #project-info {
-        margin-bottom:30px;
-    }
-
-    #more-label {
-        text-align:center;
-        margin-top:90px;
-        margin-bottom:30px;
+        margin-bottom:20px;
     }
 
     #footer {
-    padding: 90px 0 30px 0;
+        margin: 60px 0 60px;
     }
 
     #footer-rights {
