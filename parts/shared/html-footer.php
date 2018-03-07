@@ -1,30 +1,36 @@
-        </div> <!-- WRAPPER -->
-
-        <div id="yesorno">
-            <h3 class="hed-xl">Studio Sorrentino is <a href="mailto:hello@jonsorrentino">AVAILABLE</a> for freelance projects</h3>
-            <h3 class="hed-xl odd">Studio Sorrentino is <a href="mailto:hello@jonsorrentino">AVAILABLE</a> for freelance projects</h3>
-            <h3 class="hed-xl">Studio Sorrentino is <a href="mailto:hello@jonsorrentino">AVAILABLE</a> for freelance projects</h3>
-            <h3 class="hed-xl odd">Studio Sorrentino is <a href="mailto:hello@jonsorrentino">AVAILABLE</a> for freelance projects</h3>
-            <h3 class="hed-xl">Studio Sorrentino is <a href="mailto:hello@jonsorrentino">AVAILABLE</a> for freelance projects</h3>
-        </div>
-
-        <div id="footer">
+            <div id="footer">
             
-            <div class="grid-container">
-
-                <div id="footer_links" class="grid-x grid-padding-x">
-                    <div id="footer-links" class="large-7 medium-12 cell">                        
-                            <?php wp_nav_menu( array( 'theme_location' => 'secondary', 'menu_id' => ' ', 'menu_class' => ' ', 'container' => false ) ); ?>
+                <div class="grid-x grid-padding-x">
+                    <div class="small-6 large-6 cell">
+                        <h5 class="hed-l">More</h5>
+                        <div class="grid-x grid-padding-x">
+                            <div class="large-12 cell">
+                                <ul id="more">
+                                    <li class="hed-m"><a href="http://alwaysdoingsomething.com" target="_blank">A.D.S.</li>
+                                    <li class="hed-m"><a href="https://www.behance.net/jonsorre" target="_blank">Behance<a/></li>
+                                    <li class="hed-m"><a href="http://instagram.com/jonsorre" target="_blank">Instagram</a></li>
+                                    <li class="hed-m"><a href="https://www.linkedin.com/in/jonsorrentino/" target="_blank">LinkedIn</a></li>
+                                    <li class="hed-m"><a href="https://workingnotworking.com/jonsorre" target="_blank">WNW</a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-
-                    <div id="footer-rights" class="large-5 medium-12 cell">
-                        <article class="body">© 2017 Jon Sorrentino. All rights reserved.</article>
+                    <div class="small-6 large-6 cell">
+                        <h5 class="hed-l">Contact</h5>
+                        <div class="grid-x grid-padding-x">
+                            <div class="large-12 cell">
+                                <ul id="contact">
+                                    <li class="hed-m">Jon Sorrentino</li>
+                                    <li class="hed-m"><a href="mailto:hello@jonsorrentino">Email me.</a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-        </div>
-        
+            </div>    
+    
+        </div> <!-- WRAPPER -->
     </div> <!-- GRID CONTAINER -->
 </div> <!-- GRID WRAPPER -->
 
@@ -50,42 +56,6 @@
             <script>
             $(document).foundation();
             </script>
-
-            <!----- FOR HAMBURGER ------>
-
-            <script>
-            (function() {
-
-            "use strict";
-
-            var toggles = document.querySelectorAll(".c-hamburger");
-
-            for (var i = toggles.length - 1; i >= 0; i--) {
-            var toggle = toggles[i];
-            toggleHandler(toggle);
-            };
-
-            function toggleHandler(toggle) {
-            toggle.addEventListener( "click", function(e) {
-            e.preventDefault();
-            (this.classList.contains("is-active") === true) ? this.classList.remove("is-active") : this.classList.add("is-active");
-            });
-            }
-
-            })();
-            </script>
-
-            
-
-            <script> 
-            $(document).ready(function(){
-            $(".c-hamburger").click(function(){
-            $("#panel").fadeToggle(300);
-            });
-            });
-            </script>
-
-            <!-------- FOR HAMBURGER -------->
 
 </body>
 </html>

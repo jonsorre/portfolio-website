@@ -55,14 +55,23 @@ a, a:visited {
     text-decoration:none;
 }
 
+a:hover {
+    text-decoration:underline;
+    text-decoration-style:dashed;
+}
+
 p {
-    font-family: var(--body-font);
+    font-family: var(--hed-font);
     font-size:var(--body);
     line-height:var(--body-line-height);
 }
 
 p a {
     text-decoration:underline;
+}
+
+p a:hover {
+    text-decoration-style:double !important;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -72,6 +81,8 @@ h1, h2, h3, h4, h5, h6 {
 
 ul {
     padding-left:0;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
 }
 
 /*body.viceland {
@@ -88,7 +99,7 @@ body.info {
 /**/
 
 .top-bar {
-    margin-top:80px;
+    margin-top:120px;
 }
 
 .top-bar li {
@@ -103,45 +114,90 @@ body.info {
     font-family:var(--hed-font);
 }
 
+.title-bar span {
+    float:left;
+    display:block;
+}
+
+.menu-text span {
+    float:left;
+    display:block;
+}
+
+@-webkit-keyframes arrowz {
+    0% { transform: rotate(-65deg); opacity:0.1; }
+    100% { transform: rotate(-180deg); opacity:1;}
+}
+
+@keyframes arrowz {
+    0% { transform: rotate(-65deg); opacity:.1; }
+    100% { transform: rotate(-180deg); opacity:1;}
+}
+
+#arrow {
+    font-weight:800;
+    opacity:0;
+    -webkit-animation: arrowz .75s cubic-bezier(.97,.01,.22,1) 1 forwards;
+    animation: arrowz .75s cubic-bezier(.97,.01,.22,1) 1 forwards;    
+}
+
+#arrow.desktop {
+    width:30px;
+}
+
+#arrow.mobile {
+    width:18px;
+}
+
 #wrapper {
-    margin-top:120px;
+    margin-top:180px;
     /*opacity:0;*/
     /*transition:all 3s ease;*/
 } 
 
 #site-head {
-    margin-bottom:120px;
+    
+    margin-bottom:180px;
 }
 
+#site-head a {
+    text-decoration:underline;
+}
+
+#likes-dislikes {
+    margin-bottom:180px;
+}
+
+#likes-dislikes h5 {
+    text-decoration:underline;
+    margin-bottom: 30px;
+}
+
+.likes li, .dislikes li {
+    list-style:none;
+}
         
-/**/
-/*          MASONRY*/
-/**/
-
-* { box-sizing: border-box; }
-
-
-/* ---- grid ---- */
-
-
-.work-item {
-float: left;
-height:600px;
-overflow:hidden;
-position:relative;
-margin-bottom:30px;
-background:#0000FF;
-}
-
-.work-item:hover .overlay-info {
-background-color:#36363C;
-opacity:1;                
-}
-
 /**/
 /*          HP GRID*/
 /**/
 
+#work-section h5 {
+    margin-bottom:60px;
+}
+
+.work-item {
+    float: left;
+    height:600px;
+    overflow:hidden;
+    position:relative;
+    margin-bottom:60px;
+    background:#36363C;
+}
+
+.work-item:hover .overlay-info {
+    background-color:#36363C;
+    opacity:1;                
+}
 
 .index-thumb {
     height:100%;
@@ -176,7 +232,7 @@ opacity:1;
     right: 0;
     bottom: 0;
     color: white;
-    padding: 1.250rem;
+    padding: 30px;
     opacity: 0;
     transition:all .3s ease;
     margin-bottom:0;
@@ -184,31 +240,6 @@ opacity:1;
 
 .overlay-info p {
     margin:10px 0 0;
-}
-
-#yesorno {
-    margin:180px -15% 0;
-}
-
-#yesorno a {
-    border-bottom:1px solid var(--text-color);
-}
-
-#yesorno h3 {
-    width:300%;
-}
-
-#yesorno h3 {
-    animation:slide 20s linear infinite alternate;
-}
-
-#yesorno .odd {
-    animation:slide 20s linear infinite alternate-reverse;
-}
-
-@keyframes slide {
-    0% {transform: translateX(0px);}
-    100% {transform: translateX(-800px);}
 }
 
 .title {
@@ -289,48 +320,26 @@ opacity:1;
 #footer {
     width:100%;
     z-index:90;
-    padding:210px 0 60px 0;
+    margin:150px 0 120px;
 }
 
-#footer-links ul {
-    margin:0;
-}
-
-#footer-rights article {
-    text-align:right;
-    line-height:2.5;
-}
-
-#footer-links li {
-    display: inline;
-    list-style-type: none;
-    font-size: var(--hed-m);
-    font-family: var(--body-font);
-    line-height: var(--hed-line-height);
-    margin-right:60px;
-    line-height: 1.2em;
-    vertical-align: bottom;
-}
-
-
-#footer-cta.--proj {
-    text-align:center;
-    padding: 7.500rem 0;
-    margin-top:5.625rem;
-}
-
-#footer-cta.--index a{
-    margin-top:1.875rem;
-    padding-bottom:5px;
-    border-bottom:1px solid #0000ff;
-    padding: 5px 10px 0 5px;
-}
-
-#footer-cta.--work, #footer-cta.--proj a{
+#footer h5 {
     text-decoration:underline;
-    text-decoration-skip:ink;
+    margin-bottom: 30px;
 }
 
+#more li {
+    list-style:none;
+}
+
+#contact li {
+    list-style:none;
+}
+
+#contact a {
+    text-decoration:underline;
+    text-decoration-style:dashed;
+}
 
 
 @media (min-width: 950px) and (max-width: 1260px) {
@@ -405,7 +414,7 @@ opacity:1;
     }
 
     .hed-m {
-        font-size:var(--hed-l-s);
+        font-size:var(--hed-m-s);
     }
     .info p, .info li {
     font-size:var(--body);

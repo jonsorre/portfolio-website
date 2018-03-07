@@ -63,38 +63,15 @@
             	<!-- TOP BAR -->
                 <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
                   <div class="hed-m title-bar-title"><a href="<?php echo site_url(); ?>">Ciao.</a></div>
-                    <button class="c-hamburger c-hamburger--htx">
-                    	<span>Toggle</span>
-                    </button>
                 </div>
 
                 <nav>
-
-                    <div id="panel">
-
-                    	
-
-                    	<div class="internal">
-	                        <p>Here</p>
-	                        <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => ' ', 'menu_class' => 'pages', 'container' => false ) ); ?>
-	                    </div>
-
-	                    <div class="external">
-	                    	<p>Elsewhere</p>
-	                        <?php wp_nav_menu( array( 'theme_location' => 'secondary', 'menu_id' => ' ', 'menu_class' => 'pages', 'container' => false ) ); ?>
-	                    </div>
-                    </div>
 
                     <div class="top-bar" id="responsive-menu">
                       <div class="top-bar-left">
                         <ul class="dropdown menu" data-dropdown-menu>
                           <li class="hed-m menu-text"><a href="<?php echo site_url(); ?>">Ciao.</a></li>
                           
-                        </ul>
-                      </div>
-                      <div class="top-bar-right">
-                        <ul class="menu">                      
-                          <li class="hed-m"><?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?></li>
                         </ul>
                       </div>
                     </div>
