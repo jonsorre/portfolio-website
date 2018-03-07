@@ -8,7 +8,6 @@
                                 <ul id="more">
                                     <li class="hed-m"><a href="http://alwaysdoingsomething.com" target="_blank">A.D.S.</li>
                                     <li class="hed-m"><a href="https://www.behance.net/jonsorre" target="_blank">Behance<a/></li>
-                                    <li class="hed-m"><a href="http://instagram.com/jonsorre" target="_blank">Instagram</a></li>
                                     <li class="hed-m"><a href="https://www.linkedin.com/in/jonsorrentino/" target="_blank">LinkedIn</a></li>
                                     <li class="hed-m"><a href="https://workingnotworking.com/jonsorre" target="_blank">WNW</a></li>
                                 </ul>
@@ -21,7 +20,8 @@
                             <div class="large-12 cell">
                                 <ul id="contact">
                                     <li class="hed-m">Jon Sorrentino</li>
-                                    <li class="hed-m"><a href="mailto:hello@jonsorrentino">Email me.</a></li>
+                                    <li id="email" class="hed-m"><a href="mailto:hello@jonsorrentino">Email me.</a></li>
+                                    <li class="hed-m"><a href="http://instagram.com/jonsorre" target="_blank">@jonsorre</a></li>
                                 </ul>
                             </div>
                         </div>

@@ -16,7 +16,7 @@
 <?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-header' ) ); ?>
 
 
-	<div class="grid-x grid-padding-x align-center">
+	<div class="grid-x">
 		<div id="site-head" class="small-12 large-12 cell">
 
 		<?php
@@ -36,7 +36,7 @@
 		</div>
 	</div>
 
-				<div id="likes-dislikes" class="grid-x grid-padding-x">
+				<div id="likes-dislikes" class="grid-x">
 					<div class="small-6 large-6 cell">
 						<h5 class="hed-l">Likes</h5>
 						<div class="grid-x">
@@ -117,11 +117,11 @@
 
 
 
-<div class="grid-x grid-padding-x align-center">
+<div class="grid-x">
 	<div class="small-12 cell">
 	<?php else: ?>
 		
-	<h4>Work coming soon!</h4>
+	<h4 class="hed-l">Work coming soon!</h4>
 
 	<?php endif; wp_reset_postdata();?>
 	</div>
