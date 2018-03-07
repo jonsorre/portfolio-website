@@ -36,65 +36,48 @@
 		</div>
 	</div>
 
-				<div class="grid-x grid-padding-x">
-					<div class="large-6 cell">
-						<h2>Likes</h2>
-						<div class="grid-x grid-padding-x">
+				<div id="likes-dislikes" class="grid-x grid-padding-x">
+					<div class="small-6 large-6 cell">
+						<h5 class="hed-l">Likes</h5>
+						<div class="grid-x">
 							<div class="large-6 cell">
-								<ul>
-									<li>Like</li>
-									<li>Like</li>
-									<li>Like</li>
-									<li>Like</li>
-									<li>Like</li>
-									<li>Like</li>
-									<li>Like</li>
-									<li>Like</li>
-									<li>Like</li>
-									<li>Like</li>
+								<ul class="likes">
+									<li class="hed-m">Beaches</li>
+									<li class="hed-m">Books</li>
+									<li class="hed-m">Candles</li>
+									<li class="hed-m">Cats</li>
+									<li class="hed-m">Cooking</li>
+									<li class="hed-m">Curling</li>
+									<li class="hed-m">Dogs</li>
+									<li class="hed-m">Furniture</li>
+									<li class="hed-m">Hiking</li>
+									<li class="hed-m">Hockey</li>
 								</ul>
 							</div>
 							<div class="large-6 cell">
-								<ul>
-									<li>Like</li>
-									<li>Like</li>
-									<li>Like</li>
-									<li>Like</li>
-									<li>Like</li>
-									<li>Like</li>
-									<li>Like</li>
-									<li>Like</li>
+								<ul class="likes">
+									<li class="hed-m">Instagram</li>
+									<li class="hed-m">Languages</li>
+									<li class="hed-m">Pizza</li>
+									<li class="hed-m">Plants</li>
+									<li class="hed-m">Ramen</li>
+									<li class="hed-m">Rugs</li>
+									<li class="hed-m">Surfing</li>
+									<li class="hed-m">Tacos</li>
+									<li class="hed-m">Yoga</li>
 								</ul>
 							</div>
 						</div>
 					</div>
-					<div class="large-6 cell">
-						<h2>Dislikes</h2>
+					<div class="small-6 large-6 cell">
+						<h5 class="hed-l">Dislikes</h5>
 						<div class="grid-x grid-padding-x">
 							<div class="large-6 cell">
-								<ul>
-									<li>Like</li>
-									<li>Like</li>
-									<li>Like</li>
-									<li>Like</li>
-									<li>Like</li>
-									<li>Like</li>
-									<li>Like</li>
-									<li>Like</li>
-									<li>Like</li>
-									<li>Like</li>
-								</ul>
-							</div>
-							<div class="large-6 cell">
-								<ul>
-									<li>Like</li>
-									<li>Like</li>
-									<li>Like</li>
-									<li>Like</li>
-									<li>Like</li>
-									<li>Like</li>
-									<li>Like</li>
-									<li>Like</li>
+								<ul class="dislikes">
+									<li class="hed-m">Bills</li>
+									<li class="hed-m">Olives</li>
+									<li class="hed-m">Sharks</li>
+									<li class="hed-m">Sunburn</li>
 								</ul>
 							</div>
 						</div>
@@ -105,27 +88,26 @@
 				<div id="work-section" class="grid-x">
 							  	
 						
-				<h4 class="hed-l">These are some projects I've worked on...</h4>
-				<?php query_posts('category_name=work&posts_per_page=5'); ?>
+					<h5 class="hed-l">These are some projects I've worked on...</h5>
+					<?php query_posts('category_name=work&posts_per_page=5'); ?>
 
 
-				<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+					<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
-				
-					<a class="work-item small-12 large-12 cell" href="<?php esc_url( the_permalink() ); ?>" title="<?php the_title(); ?>" rel="bookmark">
 					
-						<div class="index-thumb" style="background:url('<?php the_post_thumbnail_url( full ); ?>'); background-position: center center; background-size: cover, cover; background-repeat: no-repeat;">
-						<!-- <?php echo get_the_post_thumbnail( $post_id, 'large', $attr ); ?> -->
-						</div>
+						<a class="work-item small-12 large-12 cell" href="<?php esc_url( the_permalink() ); ?>" title="<?php the_title(); ?>" rel="bookmark">
 						
-						<div class="overlay-info">
-						<h4 class="hed-m"><?php the_title(); ?></h4>
-						<p class="body"><?php the_subtitle(); ?></p>
-						</div>
-					
-					</a>
+							<div class="index-thumb" style="background:url('<?php the_post_thumbnail_url( full ); ?>'); background-position: center center; background-size: cover, cover; background-repeat: no-repeat;">
+							<!-- <?php echo get_the_post_thumbnail( $post_id, 'large', $attr ); ?> -->
+							</div>
+							
+							<div class="overlay-info">
+							<h2 class="hed-m"><?php the_title(); ?></h2>
+							</div>
+						
+						</a>
 
-					<?php endwhile; wp_reset_postdata();?>
+						<?php endwhile; wp_reset_postdata();?>
 				</div>
 
 		

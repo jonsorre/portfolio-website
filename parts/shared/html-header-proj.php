@@ -14,19 +14,23 @@
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 		<link rel="shortcut icon" href="<?php echo get_stylesheet_directory_uri(); ?>/img/favicon.png"/>
 		
-<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/img/burger-3.svg" type="text/css" charset="utf-8" />
+		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/img/burger-3.svg" type="text/css" charset="utf-8" />
 
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/var.css" type="text/css" charset="utf-8" />
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/mobile-menu.css" type="text/css" charset="utf-8" />
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/foundation.css" type="text/css" charset="utf-8" />
-
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/portfolio.css" type="text/css" charset="utf-8" />
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/fonts/ssfonts.css" type="text/css" charset="utf-8" />
-
+		
 		<noscript>
 		<link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/no-js.css" type="text/css" charset="utf-8" />
 		</noscript>
 
+
+	
+		
+	
+	
 		
 	
 	
@@ -50,47 +54,24 @@
 	</head>
 	
 	<body <?php body_class(); ?>>
-		<div id="curtain"></div>
-		 <div id="grid-wrapper" style="background: -webkit-linear-gradient(<?php the_field('bgcolor1'); ?>, <?php the_field('bgcolor2'); ?>)">
+
+		 <div id="grid-wrapper">
             <div class="grid-container">
 
 
 
             	<!-- TOP BAR -->
                 <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
-                  <div class="hed-m title-bar-title"><a href="<?php echo site_url(); ?>">Studio Sorrentino</a></div>
-                    <button class="c-hamburger c-hamburger--htx">
-                    	<span>Toggle</span>
-                    </button>
+                  <div class="hed-m title-bar-title"><a href="<?php echo site_url(); ?>"><span id="arrow" class="mobile">⇢</span><span>Back</span></a></div>
                 </div>
 
                 <nav>
 
-                    <div id="panel">
-
-                    	<div class="hed-m panel-title"><a href="<?php echo site_url(); ?>">Studio Sorrentino</a></div>
-
-                    	<div class="internal">
-	                        <p>Here</p>
-	                        <?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => ' ', 'menu_class' => 'pages', 'container' => false ) ); ?>
-	                    </div>
-
-	                    <div class="external">
-	                    	<p>Elsewhere</p>
-	                        <?php wp_nav_menu( array( 'theme_location' => 'secondary', 'menu_id' => ' ', 'menu_class' => 'pages', 'container' => false ) ); ?>
-	                    </div>
-                    </div>
-
                     <div class="top-bar" id="responsive-menu">
                       <div class="top-bar-left">
                         <ul class="dropdown menu" data-dropdown-menu>
-                          <li class="hed-m menu-text"><a href="<?php echo site_url(); ?>">Studio Sorrentino</a></li>
+                          <li class="hed-m menu-text"><a href="<?php echo site_url(); ?>"><span id="arrow" class="desktop">⇢</span><span>Back</span></a></li>
                           
-                        </ul>
-                      </div>
-                      <div class="top-bar-right">
-                        <ul class="menu">                      
-                          <li class="hed-m"><?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?></li>
                         </ul>
                       </div>
                     </div>

@@ -5,13 +5,13 @@
 
     /*--hed-font: 'ssextended', 'Helvetica Neue', Arial, sans-serif;*/
     --hed-font: 'sshead', 'Helvetica Neue', Arial, sans-serif;
-    /*--body-font: 'ssbody', 'Helvetica Neue', Arial, sans-serif;*/
+    --body-font: 'sshead', 'Helvetica Neue', Arial, sans-serif;
     
     /*Typography*/
 
     --body-line-height: 1.6;
     --hed-line-height: 1.025;
-    --alt-line-height: 1; 
+    --alt-line-height: 1.1; 
     --text-weight:400;
 
     --hed-xl: 5.625rem;
@@ -20,7 +20,8 @@
     --body: 1.125rem;
 
     --hed-xl-s: 2rem;
-    --hed-l-s: 1.750rem;
+    --hed-l-s: 1.875rem;
+    --hed-m-s: 1.125rem;
 
     --text-color: #fff;
 
