@@ -65,7 +65,7 @@
                   <div class="hed-m title-bar-title"><a href="<?php echo site_url(); ?>">Ciao.</a></div>
                 </div>
 
-                <nav>
+                <!-- <nav>
 
                     <div class="top-bar" id="responsive-menu">
                       <div class="top-bar-left">
@@ -75,7 +75,7 @@
                         </ul>
                       </div>
                     </div>
-                </nav>
+                </nav> -->
                 <!-- TOP BAR -->
 
                 <div id="wrapper">

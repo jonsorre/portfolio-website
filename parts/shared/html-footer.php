@@ -1,9 +1,9 @@
             <div id="footer">
             
-                <div class="grid-x grid-padding-x">
+                <div class="grid-x">
                     <div class="small-6 large-6 cell">
                         <h5 class="hed-l">More</h5>
-                        <div class="grid-x grid-padding-x">
+                        <div class="grid-x">
                             <div class="large-12 cell">
                                 <ul id="more">
                                     <li class="hed-m"><a href="http://alwaysdoingsomething.com" target="_blank">A.D.S.</li>
@@ -16,7 +16,7 @@
                     </div>
                     <div class="small-6 large-6 cell">
                         <h5 class="hed-l">Contact</h5>
-                        <div class="grid-x grid-padding-x">
+                        <div class="grid-x">
                             <div class="large-12 cell">
                                 <ul id="contact">
                                     <li class="hed-m">Jon Sorrentino</li>
@@ -48,7 +48,7 @@
             
 
             <script src="<?php bloginfo('template_url'); ?>/js/what-input.js"></script>
-            <script src="<?php bloginfo('template_url'); ?>/js/foundation.min.js"></script>
+            <!-- <script src="<?php bloginfo('template_url'); ?>/js/foundation.min.js"></script> -->
 
             
         

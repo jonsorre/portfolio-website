@@ -14,7 +14,7 @@
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
 
-	<div id="project-info" class="grid-x grid-padding-x">
+	<div id="project-info" class="grid-x">
 			<div id="project-title" class="large-12 small-12 cell">
 				<h2 class="hed-l title"><?php the_title(); ?></h2>
 
@@ -26,15 +26,15 @@
 			
 	</div>
 
-	<div id="project-images" class="grid-x grid-padding-x">
+	<div id="project-images" class="grid-x">
 		<div class="large-12 cell">
 			<?php the_content(); ?>			
 
-			<?php if ( get_the_author_meta( 'description' ) ) : ?>
+			<!-- <?php if ( get_the_author_meta( 'description' ) ) : ?>
 			<?php echo get_avatar( get_the_author_meta( 'user_email' ) ); ?>
 			<h3>About <?php echo get_the_author() ; ?></h3>
 			<?php the_author_meta( 'description' ); ?>
-			<?php endif; ?>
+			<?php endif; ?> -->
 
 		</div>
 		
