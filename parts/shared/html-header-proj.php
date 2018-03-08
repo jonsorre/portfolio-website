@@ -55,7 +55,7 @@
 	
 	<body <?php body_class(); ?>>
 
-		 <div id="grid-wrapper">
+		 <div id="grid-wrapper" style="background: -webkit-linear-gradient(<?php the_field('bgcolor1'); ?>, <?php the_field('bgcolor2'); ?>)">
             <div class="grid-container">
 
 
