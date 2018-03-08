@@ -114,6 +114,12 @@ body.info {
     font-family:var(--hed-font);
 }
 
+.title-bar {
+    margin-top:80px;
+    margin-left: .625rem;
+    margin-right: .625rem;
+}
+
 .title-bar span {
     float:left;
     display:block;
@@ -416,12 +422,12 @@ body.info {
     font-size:var(--body);
     }
 
-    #grid-wrapper {
-        padding:0;
-    }
-
     .title-bar {
         margin-top:40px;
+    }
+  
+    #grid-wrapper {
+        padding:0;
     }
 
     #wrapper {
@@ -439,7 +445,7 @@ body.info {
     #work-section h5 {
         margin-bottom: 30px;
     }
-
+  
     #likes-dislikes {
         margin-bottom: 80px;
     }
@@ -460,8 +466,13 @@ body.info {
 
     /*#footer h5 {
         margin-bottom: 15px;
+<<<<<<< HEAD
     }*/
+=======
+>>>>>>> 15b6fb7474a59cd0dd9b4bc398c30e27c7ff430c
 
+    }
+  
     #project-images img {
     margin-bottom:10px;
     }
