@@ -55,17 +55,17 @@
 	
 	<body <?php body_class(); ?>>
 
-		 <div id="grid-wrapper">
+		 <div id="grid-wrapper" style="background: -webkit-linear-gradient(<?php the_field('bgcolor1'); ?>, <?php the_field('bgcolor2'); ?>)">
             <div class="grid-container">
 
 
 
             	<!-- TOP BAR -->
                 <div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
-                  <div class="hed-m title-bar-title"><a href="<?php echo site_url(); ?>"><span id="arrow" class="mobile">⇢</span><span>Back</span></a></div>
+                  <div class="hed-m title-bar-title"><a href="<?php echo site_url(); ?>"><span id="arrow">⇢</span><span>Back</span></a></div>
                 </div>
 
-                <nav>
+                <!-- <nav>
 
                     <div class="top-bar" id="responsive-menu">
                       <div class="top-bar-left">
@@ -75,7 +75,7 @@
                         </ul>
                       </div>
                     </div>
-                </nav>
+                </nav> -->
                 <!-- TOP BAR -->
 
                 <div id="wrapper">

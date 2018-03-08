@@ -48,7 +48,7 @@
             
 
             <script src="<?php bloginfo('template_url'); ?>/js/what-input.js"></script>
-            <script src="<?php bloginfo('template_url'); ?>/js/foundation.min.js"></script>
+            <!-- <script src="<?php bloginfo('template_url'); ?>/js/foundation.min.js"></script> -->
 
             
         
