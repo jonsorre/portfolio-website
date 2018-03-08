@@ -71,7 +71,7 @@
 					</div>
 					<div class="small-6 large-6 cell">
 						<h5 class="hed-l">Dislikes</h5>
-						<div class="grid-x grid-padding-x">
+						<div class="grid-x">
 							<div class="large-6 cell">
 								<ul class="dislikes">
 									<li class="hed-m">Bills</li>
