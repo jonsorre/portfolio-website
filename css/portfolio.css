@@ -185,6 +185,11 @@ body.info {
 .likes li, .dislikes li {
     list-style:none;
 }
+
+#blog-list {
+    margin-top:120px;
+    margin-bottom:60px;
+}
    
 #blog-section a {
     text-decoration:underline;
@@ -365,8 +370,7 @@ body.info {
 
 #footer {
     width:100%;
-    z-index:90;
-    margin:150px 0 120px;
+    padding:150px 0 120px;
 }
 
 #footer h5 {
@@ -486,7 +490,7 @@ body.info {
     }
 
     #footer {
-        margin: 90px 0 80px;
+        padding: 90px 0 80px;
     }
 
 }

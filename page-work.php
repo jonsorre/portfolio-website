@@ -120,9 +120,33 @@
 						<?php endif; ?>
 				</div>
 
-				<div id="blog-section" class="grid-x">
-					<div class="large-12 small-12 cell">
-						<h5 class="hed-l"><a href="<?php echo site_url(); ?>/blog">Here</a> are some things I like to talk about...</h5>
+				<div id="blog-section">
+					<div id="blog-list" class="grid-x">
+						<div class="large-12 small-12 cell">
+							<h5 class="hed-l"><a href="<?php echo site_url(); ?>/blog">Here</a> I talk about stuff around my neighborhood, learning new things, and on-going projects.</h5>
+						</div>
+
+						<!-- <div class="large-6 small-12 cell">
+								<?php
+
+								$query = new WP_Query( array( 'post_type' => 'blog_post', 'posts_per_page' => 3 ) );
+
+								if ( $query->have_posts() ) : ?>
+									<?php while ( $query->have_posts() ) : $query->the_post(); ?>	
+										<a class="" href="<?php esc_url( the_permalink() ); ?>" title="<?php the_title(); ?>" rel="bookmark">
+											<div class="entry">
+												<h2 class="blog-post-title hed-m"><?php the_title(); ?></h2>
+											</div>
+										</a>
+
+									<?php endwhile; wp_reset_postdata(); ?>
+								
+									<?php else : ?>
+								 <span>I'm still thinking...</span>
+									<?php endif; ?>
+
+
+						</div> -->
 					</div>
 				</div>
 		
