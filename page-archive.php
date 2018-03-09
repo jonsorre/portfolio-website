@@ -19,7 +19,7 @@
 <div class="grid-x grid-padding-x">
 	<?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 			
-			<div id="project-title" class="large-12 cell">
+			<div id="project-title" class="large-6 small-12 cell">
 				<h2 class="hed-l title"><?php the_title(); ?></h2>
 				<!-- <h2 class="hed-xl title"><?php the_subtitle(); ?></h2> -->
 			</div>
@@ -38,10 +38,8 @@
 			<li class="archive-item large-12 cell">
 			<a href="<?php esc_url( the_permalink() ); ?>" title="<?php the_title(); ?>" rel="bookmark">
 				<h2 class="hed-m"><?php the_title(); ?></h2>
-				<h4 class="body"><?php the_subtitle(); ?></h4>
-				
-			
 			</a>
+			<h4 class="body"><?php the_subtitle(); ?></h4>
 			</li>
 	<?php endwhile; ?>
 	<!-- end of the loop -->

@@ -146,30 +146,14 @@ body.info {
     100% { transform: rotate(-180deg); opacity:1;}
 }
 
-/*@keyframes hover {
-    0% {left:0px; opacity:1;}
-    100% {left:2px; opacity:1; }
-}*/
-
 #arrow {
     font-weight:800;
     opacity:0;
     -webkit-animation: arrowz .5s cubic-bezier(.97,.01,.22,1) 1 forwards;
     animation: arrowz .5s cubic-bezier(.97,.01,.22,1) 1 forwards;  
     position:relative;
+    margin-left:-32px;
     
-}
-
-/*#arrow:hover {
-    animation: hover .15s ease-in-out infinite alternate both;  
-}*/
-
-#arrow.desktop {
-    width:30px;
-}
-
-#arrow.mobile {
-    width:18px;
 }
 
 #wrapper {
@@ -201,7 +185,11 @@ body.info {
 .likes li, .dislikes li {
     list-style:none;
 }
-        
+   
+#blog-section a {
+    text-decoration:underline;
+}
+
 /**/
 /*          HP GRID*/
 /**/
@@ -321,13 +309,45 @@ body.info {
 }
 
 /**/
+/*          BLOG PAGE*/
+/**/
+
+.blog-item:hover {
+    text-decoration:none;
+}
+
+.blog-item:hover h2 {
+    text-decoration:underline;
+    text-decoration-style: dashed;
+}
+
+.blog-item span {
+    width:120px;
+    height:8px;
+    background-color:white;
+    display:block;
+}
+
+.blog-item {
+    margin-bottom:120px;
+}
+
+.dek {
+    max-width:680px;
+    margin-top:30px;
+}
+
+.dek span {
+    margin-top:60px;
+}
+
+/**/
 /*          ARCHIVE PAGE*/
 /**/
 
-
 #archive-list {
 	 list-style: decimal-leading-zero;
-	-webkit-margin-before:0;
+	/*-webkit-margin-before:0;*/
 	margin-top:30px;
 	font-family: var(--hed-font);
 	/*font-size: var(--hed-m);*/
@@ -336,6 +356,7 @@ body.info {
 
 #archive-list li {
 	margin-bottom:30px;
+    font-size: var(--body);
 }
 
 /**/
