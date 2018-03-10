@@ -6,7 +6,6 @@
                         <div class="grid-x">
                             <div class="large-12 cell">
                                 <ul id="more">
-                                    <li class="hed-m"><a href="http://alwaysdoingsomething.com" target="_blank">A.D.S.</li>
                                     <li class="hed-m"><a href="https://www.behance.net/jonsorre" target="_blank">Behance<a/></li>
                                     <li class="hed-m"><a href="https://www.linkedin.com/in/jonsorrentino/" target="_blank">LinkedIn</a></li>
                                     <li class="hed-m"><a href="https://workingnotworking.com/jonsorre" target="_blank">WNW</a></li>
