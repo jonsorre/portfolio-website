@@ -61,8 +61,8 @@
 
 				<div class="grid-x">
 						<div class="large-12 cell">
-							<div class="hed-m"><?php next_posts_link( 'Older' ); ?></div>
-							<div class="hed-m"><?php previous_posts_link( 'Newer' ); ?></div>
+							<div class="hed-m"><?php next_posts_link( 'Previous page' ); ?></div>
+							<div class="hed-m"><?php previous_posts_link( 'Next Page' ); ?></div>
 						</div>
 
 				</div>

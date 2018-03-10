@@ -15,20 +15,20 @@
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 
 
-	<div id="project-info" class="grid-x">
-			<div id="project-title" class="large-10 small-12 cell">
-				<h2 class="hed-l title"><?php the_title(); ?></h2>
+	<div id="blog-post-head" class="grid-x">
+			<div id="blog-post-title" class="large-10 small-12 cell">
+				<h2 class="hed-l"><?php the_title(); ?></h2>
 
 			</div>
-            <div class="large-8 cell">
-                <?php the_field('project_description'); ?>
+            <div class="dek cell">
+                <h5 class="hed-m"><?php the_subtitle(); ?></h5>
 
             </div>
 			
 	</div>
 
-	<div id="project-images" class="grid-x">
-		<div class="dek cell">
+	<div id="blog-post-wrapper" class="grid-x">
+		<div id="blog-post-content" class="cell">
 			<?php the_content(); ?>			
 
 			<!-- <?php if ( get_the_author_meta( 'description' ) ) : ?>
@@ -38,14 +38,20 @@
 			<?php endif; ?> -->
 
 		</div>
-		
-	</div>
 
-	<div class="grid-x">
-		<div class="dek cell">
-			<h2 class="hed-m">Jon is a designer located in Jersey City. Currently at Vice and previously Viceland, Pacha and Yahoo. Jon is available for freelance projects.</h2>
+		<div id="blog-post-sig" class="cell">
+			<h2 class="hed-m">Jon is a <a href="<?php echo site_url(); ?>">designer</a> located in Jersey City. Currently at <a href="http://vice.com" target="_blank">Vice</a> and previously Viceland, Pacha and Yahoo. Jon is <a href="mailto:hello@jonsorrentino.com?subject=New Project">available</a> for freelance projects.</h2>
+		</div>
+
+		<div id="post-pagination" class="cell">
+			<div class="hed-m"><a href="<?php echo site_url(); ?>/blog"><span id="arrow">⇠</span><span>Back</span></a></div>
 		</div>
 	</div>
+
+	
+		
+
+	
 	
 
 

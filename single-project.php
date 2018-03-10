@@ -40,9 +40,15 @@
 		</div>
 		
 	</div>
+
+	<div id="post-pagination" class="griid-x">
+		<div class="cell">
+			<div class="hed-m"><a href="<?php echo site_url(); ?>"><span id="arrow">⇠</span><span>Back</span></a></div>
+		</div>
+	</div>
 	
 
 
 <?php endwhile; ?>
 
-<?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-footer-proj' ) ); ?>
+<?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-footer' ) ); ?>
