@@ -42,7 +42,7 @@
 							<div class="large-10 small-12 cell"><h2 class="hed-l"><?php the_title(); ?></h2></div>
 							
 							<div class="dek cell">
-								<h5 class="hed-m"><?php the_subtitle(); ?></h5>
+								<h5 class="hed-m"><?php the_field('blog_post_dek'); ?></h5>
 								<span></span>
 							</div>
 							
