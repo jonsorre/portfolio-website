@@ -21,7 +21,7 @@
 
 			</div>
             <div class="dek cell">
-                <h5 class="hed-m"><?php the_subtitle(); ?></h5>
+                <h5 class="hed-m"><?php the_field('blog_post_dek'); ?></h5>
 
             </div>
 			
@@ -57,4 +57,4 @@
 
 <?php endwhile; ?>
 
-<?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-footer-proj' ) ); ?>
+<?php Starkers_Utilities::get_template_parts( array( 'parts/shared/html-footer' ) ); ?>
