@@ -338,7 +338,7 @@ body.info {
     margin-bottom:60px;
 }
 
-#blog-post-content {
+#blog-post-content ul {
 	font-family: var(--hed-font);
 	font-size:var(--body);
 	line-height:var(--body-line-height);
