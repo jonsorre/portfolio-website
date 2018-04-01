@@ -338,6 +338,13 @@ body.info {
     margin-bottom:60px;
 }
 
+#blog-post-content {
+	font-family: var(--hed-font);
+	font-size:var(--body);
+	line-height:var(--body-line-height);
+	-webkit-padding-start: 20px;
+}
+
 #blog-post-sig {
     max-width:640px;
     margin-bottom:120px;
