@@ -345,6 +345,10 @@ body.info {
 	-webkit-padding-start: 20px;
 }
 
+#blog-post-content .wp-caption {
+	max-width:100%;
+}
+
 #blog-post-sig {
     max-width:640px;
     margin-bottom:120px;
